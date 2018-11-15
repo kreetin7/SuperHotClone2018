@@ -29,33 +29,25 @@ public class cubeProtoMiove : MonoBehaviour
 		//Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation
 		Camera.main.transform.Rotate(-mouseY, 0f,0f); //same thing
 		
-		//rotating on x axis is pitch (look up and down)
-		//rotating on y axis is yaw (look left and right)
-		//rotating on z axis is roll
-		
-		//problem 1: camera keeps rolling
-		//solution 1: after applying rotations, unroll the camera
-		Camera.main.transform.localEulerAngles -= new Vector3(
+
+		Camera.main.transform.localEulerAngles -= new Vector3( //making the camera rotate 
 			0,
 			0,
-			Camera.main.transform.localEulerAngles.z
+			Camera.main.transform.localEulerAngles.z 
 		);
 		
-		upDownRotation -= mouseY;
-		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80); 
+		upDownRotation -= mouseY; //setting up downRotation variable to the y axis
+		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80); //clamping the camera
 
-		TimeManager.instance.TimeTarget = 0.12f; 
+		TimeManager.instance.TimeTarget = 0.12f; //setting the default time target (as in how slow it starts out) 
+		
+		
 		if (Input.GetKey(KeyCode.W)) //if W is pressed 
 		{
 			transform.Translate(0f, 0f,1f * CubeSpeed); //moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason
 
-			/*Time.timeScale += (1f/TimeManager.instance.slowDownLength) * Time.unscaledDeltaTime;//setting time to "normal time" when you move
-			Debug.Log(Time.timeScale);
-			Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
-			Debug.Log(Time.time);
-			*/
-			//Time.timeScale = 1;
-			TimeManager.instance.TimeTarget = 1; 
+		
+			TimeManager.instance.TimeTarget = 1; //setting the target to the normal rate 
 
 
 		}
@@ -63,23 +55,23 @@ public class cubeProtoMiove : MonoBehaviour
 		if (Input.GetKey(KeyCode.S)) //if S is pressed 
 		{
 			transform.Translate(0f, 0f,-1f * CubeSpeed); //moving the cube backwards on the Z axis @ryan why
-			TimeManager.instance.TimeTarget = 1;
+			TimeManager.instance.TimeTarget = 1; //setting the target to the normal rate so that it speeds back up to a "normal" speed
 			//Time.timeScale = 1;
 			//Debug.Log(Time.timeScale);
 		}
 		
-		if (Input.GetKey(KeyCode.A)) //if S is pressed 
+		if (Input.GetKey(KeyCode.A)) //if A is pressed 
 		{
-			transform.Translate(-1f * CubeSpeed, 0f,0f); //moving the cube backwards on the Z axis @ryan why
-			TimeManager.instance.TimeTarget = 1;
+			transform.Translate(-1f * CubeSpeed, 0f,0f); //moving left on the x axis 
+			TimeManager.instance.TimeTarget = 1; //setting the target at normal rate
 			//Time.timeScale = 1;
 			//Debug.Log(Time.timeScale);
 		}
 		
-		if (Input.GetKey(KeyCode.D)) //if S is pressed 
+		if (Input.GetKey(KeyCode.D)) //if D is pressed 
 		{
-			transform.Translate(1f * CubeSpeed, 0f,0f); //moving the cube backwards on the Z axis @ryan why
-			TimeManager.instance.TimeTarget = 1;
+			transform.Translate(1f * CubeSpeed, 0f,0f); //moving right on the x axis
+			TimeManager.instance.TimeTarget = 1; //setting the time target back at normal time
 			//Time.timeScale = 1;
 			//Debug.Log(Time.timeScale);
 		}
@@ -88,9 +80,6 @@ public class cubeProtoMiove : MonoBehaviour
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false; //hide the cursor as well, just to be safe
 		}
-		else 
-		{
-			//TimeManager.instance.SlowDown(); //calling the slowdown function if you aren't moving
-		}
+		
 	}
 }
