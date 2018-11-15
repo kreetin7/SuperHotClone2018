@@ -13,7 +13,10 @@ public class TimeManager : MonoBehaviour
 
 	public float slowDownFactor; //sets variable for on a scale from 0=>1, how slow do we go? 
 	
-	public float slowDownLength = 2f; 
+	public float slowDownLength = 2f;
+
+	public float TimeTarget;
+	public float TimeSpeed; 
 
 	//public float slowdownLength;
 
@@ -24,15 +27,19 @@ public class TimeManager : MonoBehaviour
 		instance = this; //setting the static instance
 	}
 
+	public void Update()
+	{
+		Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeTarget, TimeSpeed); 
+	}
 
-	public void SlowDown() //a function to call when you want something to slow down
+	/*public void SlowDown() //a function to call when you want something to slow down
 	{
 		
 		
 		Time.timeScale = slowDownFactor; //set the time scale = to the slowdownfactor
 		Time.fixedDeltaTime = Time.timeScale * 0.02f; 
 		Debug.Log(Time.timeScale); //debugging to be sure it's reading it
-	}
+	}*/
 
 	
 }
