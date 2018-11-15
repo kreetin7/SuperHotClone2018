@@ -17,6 +17,15 @@ public class itemPickUp : MonoBehaviour {
 	//speed in which the object will fly towards the player
 	public float pickUpSpeed;
 	
+	
+	//state int 
+	//there are three states:
+	//1. laying on ground
+	//2. moving towards player ("getting picked up")
+	//3. in the player's hands ("in the camera view")
+	private int itemState = 1;
+	
+	
 	//force of throw
 	private float throwForce = 600f;
 	//bool to see if item is picked up by player
@@ -31,37 +40,55 @@ public class itemPickUp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		if (cameraScript.itemHit == true)
+
+		if (itemState == 1)
 		{
-			//this.GetComponent<Rigidbody>().useGravity = false;
+			if (cameraScript.itemHit == true)
+			{
+				itemState = 2;
+			}
+		}
+
+		if (itemState == 2)
+		{
+			this.GetComponent<Rigidbody>().useGravity = false;
 			destination =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 			transform.position = Vector3.MoveTowards(transform.position, destination, pickUpSpeed * Time.deltaTime);
 			Debug.DrawLine(transform.position, destination, Color.magenta);
 			transform.LookAt(destination);
 		}
-		
-		if (cameraScript.itemHit == false && isHolding == true)
+
+		if (itemState == 3)
 		{
-			//holdPos =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z+10);
-			//this.GetComponent<Rigidbody>().velocity = Vector3.zero;
-			//this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-			//transform.position = destination;
+			//find unchecked "gun" item, and set the position 
+			transform.parent = GameObject.FindWithTag("MainCamera").transform;
+			Transform gunPosTrans = GameObject.FindWithTag("MainCamera").transform.GetChild(0);
+			transform.position = gunPosTrans.position;
+			transform.rotation = gunPosTrans.rotation;
+			this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+		}
+		
+		/*if (cameraScript.itemHit == false && isHolding == true)
+		{
+			holdPos =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z+10);
+			this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+			transform.position = destination;
 			
 			if (Input.GetMouseButtonDown(1))
 			{
 				
 			}
-		}
+		}*/
 			
 	}
 	//when it hits the player... position item in front of player
 	void OnCollisionEnter (Collision col)
 	{
-		if (col.gameObject.tag == "player")
+		if (col.gameObject.tag == "Player")
 		{
-			//isHolding = true;
-			//cameraScript.itemHit = false;
+			itemState = 3;
 		}
 	}
 	
