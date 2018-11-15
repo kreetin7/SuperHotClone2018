@@ -109,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+            <state relative-caret-position="525">
+              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
                 <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
@@ -226,12 +226,12 @@
       <workItem from="1541690605944" duration="9000" />
       <workItem from="1541693784390" duration="4228000" />
       <workItem from="1542078905561" duration="6740000" />
-      <workItem from="1542298732826" duration="333000" />
+      <workItem from="1542298732826" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16770000" />
+    <option name="totallyTimeSpent" value="17576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+        <state relative-caret-position="525">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
             <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
