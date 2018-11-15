@@ -12,7 +12,7 @@
     <session id="1225514986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -32,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1452" />
+          <entry key="cs" value="2078" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1452" />
+          <entry key="C#" value="2078" />
         </counts>
       </usages-collector>
     </session>
@@ -90,19 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="410">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
-                <marker date="1542083916411" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542083916411" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-                <marker date="1542083916411" expanded="true" signature="317:1214" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="494:501" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="520:1120" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="912:1117" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="959:1074" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="997:1069" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="1159:1212" ph="{...}" />
-                <marker date="1542083916411" expanded="true" signature="1197:1209" ph="{...}" />
+                <marker date="1542131052637" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542131052637" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
+                <marker date="1542131052637" expanded="true" signature="317:1127" ph="{...}" />
+                <marker date="1542131052637" expanded="true" signature="494:501" ph="{...}" />
+                <marker date="1542131052637" expanded="true" signature="520:1122" ph="{...}" />
+                <marker date="1542131052637" expanded="true" signature="912:1119" ph="{...}" />
+                <marker date="1542131052637" expanded="true" signature="959:1076" ph="{...}" />
+                <marker date="1542131052637" expanded="true" signature="997:1071" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,20 +109,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="46" column="67" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+            <state relative-caret-position="145">
+              <caret line="53" column="62" lean-forward="true" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
               <folding>
-                <marker date="1542085138650" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542085138650" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-                <marker date="1542085138650" expanded="true" signature="261:2044" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="412:503" ph="/* p ... */" />
-                <marker date="1542085138650" expanded="true" signature="812:935" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="990:1829" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="1030:1419" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="1480:1822" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="1803:1818" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="1931:2037" ph="{...}" />
-                <marker date="1542085138650" expanded="true" signature="1972:2034" ph="{...}" />
+                <marker date="1542132199394" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542132199394" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
+                <marker date="1542132199394" expanded="true" signature="261:2751" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="412:503" ph="/* p ... */" />
+                <marker date="1542132199394" expanded="true" signature="626:789" ph="/* state int ... */" />
+                <marker date="1542132199394" expanded="true" signature="1011:1134" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="1189:2572" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="1213:1287" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="1254:1283" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="1310:1699" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="1722:2158" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="2164:2565" ph="/* if (cameraScript.itemHit == false &amp;&amp; isHolding == true) ... */" />
+                <marker date="1542132199394" expanded="true" signature="2674:2744" ph="{...}" />
+                <marker date="1542132199394" expanded="true" signature="2715:2741" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -226,12 +227,12 @@
       <workItem from="1541690538602" duration="17000" />
       <workItem from="1541690605944" duration="9000" />
       <workItem from="1541693784390" duration="4228000" />
-      <workItem from="1542078905561" duration="6740000" />
+      <workItem from="1542078905561" duration="9915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10994000" />
+    <option name="totallyTimeSpent" value="14169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,39 +334,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="410">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
-            <marker date="1542083916411" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542083916411" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-            <marker date="1542083916411" expanded="true" signature="317:1214" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="494:501" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="520:1120" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="912:1117" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="959:1074" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="997:1069" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="1159:1212" ph="{...}" />
-            <marker date="1542083916411" expanded="true" signature="1197:1209" ph="{...}" />
+            <marker date="1542131052637" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542131052637" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
+            <marker date="1542131052637" expanded="true" signature="317:1127" ph="{...}" />
+            <marker date="1542131052637" expanded="true" signature="494:501" ph="{...}" />
+            <marker date="1542131052637" expanded="true" signature="520:1122" ph="{...}" />
+            <marker date="1542131052637" expanded="true" signature="912:1119" ph="{...}" />
+            <marker date="1542131052637" expanded="true" signature="959:1076" ph="{...}" />
+            <marker date="1542131052637" expanded="true" signature="997:1071" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" column="67" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+        <state relative-caret-position="145">
+          <caret line="53" column="62" lean-forward="true" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
           <folding>
-            <marker date="1542085138650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542085138650" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-            <marker date="1542085138650" expanded="true" signature="261:2044" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="412:503" ph="/* p ... */" />
-            <marker date="1542085138650" expanded="true" signature="812:935" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="990:1829" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="1030:1419" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="1480:1822" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="1803:1818" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="1931:2037" ph="{...}" />
-            <marker date="1542085138650" expanded="true" signature="1972:2034" ph="{...}" />
+            <marker date="1542132199394" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542132199394" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
+            <marker date="1542132199394" expanded="true" signature="261:2751" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="412:503" ph="/* p ... */" />
+            <marker date="1542132199394" expanded="true" signature="626:789" ph="/* state int ... */" />
+            <marker date="1542132199394" expanded="true" signature="1011:1134" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="1189:2572" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="1213:1287" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="1254:1283" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="1310:1699" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="1722:2158" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="2164:2565" ph="/* if (cameraScript.itemHit == false &amp;&amp; isHolding == true) ... */" />
+            <marker date="1542132199394" expanded="true" signature="2674:2744" ph="{...}" />
+            <marker date="1542132199394" expanded="true" signature="2715:2741" ph="{...}" />
           </folding>
         </state>
       </provider>
