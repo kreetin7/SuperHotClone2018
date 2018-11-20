@@ -33,7 +33,7 @@ public class lookPickUp : MonoBehaviour
 			{
 				if (Input.GetKey(KeyCode.E))
 				{
-					Debug.Log("you can pick it up!");
+					//Debug.Log("you can pick it up!");
 					itemHit = true;
 				}
 			} else {
@@ -43,11 +43,5 @@ public class lookPickUp : MonoBehaviour
 		}
 	}
 
-	void OnCollisionEnter(Collision col)
-	{
-		if (col.gameObject.tag == "gun")
-		{
-			
-		}
-	}
+	
 }
