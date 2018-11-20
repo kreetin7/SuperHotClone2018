@@ -33,10 +33,11 @@ public class ProjectileMove : MonoBehaviour
 	}
 	
 	//none functioning collisions code
- /*
-	void OnCollisionEnter(Collision co)
+ 
+	void OnCollisionEnter(Collision col)
 	{
+		Debug.Log(col.gameObject.name);
 		speed = 0;
-		Destroy(gameObject);
-	} */
+		Destroy(this.gameObject);
+	} 
 }
