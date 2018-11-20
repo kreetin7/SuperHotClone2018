@@ -11,10 +11,7 @@ public class playerController : MonoBehaviour
 	public float lookSpeed = 300f;
 	private Vector3 inputVector;	//pass keyboard data from Update() to FixedUpdate()
 	
-	//length of item pick up raycast
-	float maxRaycastDist = 2f;
-	//bool to see if raycast hit a pick up item
-	public bool itemHit;
+	
 	
 	// Use this for initialization
 	void Start () {
@@ -74,30 +71,7 @@ public class playerController : MonoBehaviour
 		inputVector = transform.forward * vertical * moveSpeed;	//forward/back
 		inputVector += transform.right * horizontal * moveSpeed;	//left/right
 		
-		//--------------------------
-		//aim pickUpRay raycast
-		Ray pickUpRay = Camera.main.ScreenPointToRay(transform.position);
 		
-		Debug.DrawRay(pickUpRay.origin, pickUpRay.direction * maxRaycastDist, Color.red);
-		
-		RaycastHit pickUpRayHit = new RaycastHit();	
-		//if raycast hits something...
-		if (Physics.Raycast(pickUpRay, out pickUpRayHit, maxRaycastDist))
-		{
-			if (pickUpRayHit.collider.tag == "gun")
-			{
-				if (Input.GetKey(KeyCode.E))
-				{
-					Debug.Log("you can pick it up!");
-					itemHit = true;
-				}
-			}
-			else
-			{
-				itemHit = false;
-			}
-			
-		}
 		
 	}
 

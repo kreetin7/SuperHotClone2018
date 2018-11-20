@@ -20,7 +20,6 @@
           <e p="lookPickUp.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="playerController.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
