@@ -38,7 +38,7 @@ public class SpawnProjectiles : MonoBehaviour {
 		if (firePoint != null)
 		{
 			//instantiate a bullet
-			vfx = Instantiate(effectToSpawn, firePoint.transform.position, Quaternion.identity);
+			vfx = Instantiate(effectToSpawn, firePoint.transform.position, Camera.main.transform.rotation);
 			if (RotateToMouse != null)
 			{
 				//bullet rotation equal to where circle is looking
