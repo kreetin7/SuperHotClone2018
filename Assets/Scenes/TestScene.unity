@@ -3408,7 +3408,7 @@ GameObject:
   - component: {fileID: 1612660870}
   - component: {fileID: 1612660872}
   - component: {fileID: 1612660873}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NewPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3495,7 +3495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2119f4665e4f284d8490479c4e53190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubeSpeed: 8.56
+  CubeSpeed: 6.3
   lookSpeed: 300
 --- !u!114 &1612660871
 MonoBehaviour:
@@ -3813,6 +3813,50 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31635176bdc08a745a90f414ad128157, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1769355256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769355258}
+  - component: {fileID: 1769355257}
+  m_Layer: 0
+  m_Name: BulletManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1769355257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769355256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39448c0f41cec4a94bd119293b4efc50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 1493837724}
+  vfx:
+  - {fileID: 1717603046197978, guid: cb0ec2db891a64d358611999d657bbdc, type: 2}
+  RotateToMouse: {fileID: 0}
+--- !u!4 &1769355258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769355256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.55657, y: 84.63377, z: -63.834366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1781254523
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,7 +3868,7 @@ GameObject:
   - component: {fileID: 1781254525}
   - component: {fileID: 1781254524}
   - component: {fileID: 1781254527}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}

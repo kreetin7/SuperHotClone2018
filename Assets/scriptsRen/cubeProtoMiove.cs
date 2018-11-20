@@ -27,7 +27,7 @@ public class cubeProtoMiove : MonoBehaviour
 		float mouseX = Input.GetAxis("Mouse X") * lookSpeed * Time.deltaTime;	//mouseX = horizontal mouseDelta
 		float mouseY = Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;	//mouseY = vertical mouseDelta
 		
-		transform.Rotate(0f, mouseX, 0f);
+		transform.Rotate(0f, -mouseX, 0f);
 		//Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation
 		Camera.main.transform.Rotate(-mouseY, 0f,0f); //same thing
 		
@@ -61,6 +61,7 @@ public class cubeProtoMiove : MonoBehaviour
 
 		}
 
+
 		if (Input.GetKey(KeyCode.S)) //if S is pressed 
 		{
 		//	transform.Translate(0f, 0f,-1f * CubeSpeed); //moving the cube backwards on the Z axis @ryan why
@@ -84,6 +85,8 @@ public class cubeProtoMiove : MonoBehaviour
 			//Time.timeScale = 1;
 			//Debug.Log(Time.timeScale);
 		}
+
+		
 		if (Input.GetMouseButton(0))
 		{
 			Cursor.lockState = CursorLockMode.Locked;
