@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bb5149d-994f-4ecc-bafe-35bebaffd589" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SuperHot2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SuperHot2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Charlie's Scripts/SpawnProjectiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Charlie's Scripts/SpawnProjectiles.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +14,13 @@
     <session id="-1933590990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,14 +35,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="40" />
+          <entry key="C#" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="40" />
+          <entry key="cs" value="91" />
         </counts>
       </usages-collector>
     </session>
@@ -52,18 +52,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Charlie's Scripts/SpawnProjectiles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
+            <state relative-caret-position="638">
               <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
-                <marker date="1542300478746" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542300478746" expanded="true" signature="126:1083" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="370:402" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="457:659" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="519:653" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="677:1081" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="752:1032" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="900:1028" ph="{...}" />
-                <marker date="1542300478746" expanded="true" signature="1040:1078" ph="{...}" />
+                <marker date="1542301131691" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542301131691" expanded="true" signature="126:1094" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="370:402" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="457:659" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="519:653" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="677:1092" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="752:1043" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="911:1039" ph="{...}" />
+                <marker date="1542301131691" expanded="true" signature="1051:1089" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -172,13 +172,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,11 +228,12 @@
       <workItem from="1542119436760" duration="1864000" />
       <workItem from="1542290194579" duration="1684000" />
       <workItem from="1542300505427" duration="276000" />
+      <workItem from="1542301036616" duration="550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3891000" />
+    <option name="totallyTimeSpent" value="4441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +248,7 @@
     <frame x="10" y="23" width="1430" height="844" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26080692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2644092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,18 +294,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Charlie's Scripts/SpawnProjectiles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
+        <state relative-caret-position="638">
           <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
-            <marker date="1542300478746" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542300478746" expanded="true" signature="126:1083" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="370:402" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="457:659" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="519:653" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="677:1081" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="752:1032" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="900:1028" ph="{...}" />
-            <marker date="1542300478746" expanded="true" signature="1040:1078" ph="{...}" />
+            <marker date="1542301131691" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542301131691" expanded="true" signature="126:1094" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="370:402" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="457:659" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="519:653" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="677:1092" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="752:1043" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="911:1039" ph="{...}" />
+            <marker date="1542301131691" expanded="true" signature="1051:1089" ph="{...}" />
           </folding>
         </state>
       </provider>
