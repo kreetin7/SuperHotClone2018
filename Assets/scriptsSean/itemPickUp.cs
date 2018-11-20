@@ -51,7 +51,7 @@ public class itemPickUp : MonoBehaviour {
 
 		if (itemState == 2)
 		{
-			this.GetComponent<Rigidbody>().useGravity = false;
+			//this.GetComponent<Rigidbody>().useGravity = false;
 			destination =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 			transform.position = Vector3.MoveTowards(transform.position, destination, pickUpSpeed * Time.deltaTime);
 			Debug.DrawLine(transform.position, destination, Color.magenta);
@@ -71,10 +71,10 @@ public class itemPickUp : MonoBehaviour {
 		
 		/*if (cameraScript.itemHit == false && isHolding == true)
 		{
-			holdPos =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z+10);
-			this.GetComponent<Rigidbody>().velocity = Vector3.zero;
-			this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-			transform.position = destination;
+			//holdPos =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z+10);
+			//this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			//this.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+			//transform.position = destination;
 			
 			if (Input.GetMouseButtonDown(1))
 			{
@@ -89,6 +89,8 @@ public class itemPickUp : MonoBehaviour {
 		if (col.gameObject.tag == "Player")
 		{
 			itemState = 3;
+
+
 		}
 	}
 	

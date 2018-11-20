@@ -10,7 +10,7 @@ public class lookPickUp : MonoBehaviour
 
 	public GameObject player;
 	//length of item pick up raycast
-	float maxRaycastDist = 2f;
+	float maxRaycastDist = 60f;
 	//bool to see if raycast hit a pick up item
 	public bool itemHit;
 	
