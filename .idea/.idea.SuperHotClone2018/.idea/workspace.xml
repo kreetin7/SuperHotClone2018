@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6171ff2-50ed-4597-8319-18616b37746b" name="Default Changelist" comment="" />
+    <list default="true" id="e6171ff2-50ed-4597-8319-18616b37746b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SuperHotClone2018/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SuperHotClone2018/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SuperHotClone2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SuperHotClone2018/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,55 +77,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="981690826">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1191" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1191" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="606">
+              <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
               <folding>
-                <marker date="1542299053801" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542299053801" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-                <marker date="1542299053801" expanded="true" signature="219:2671" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="425:435" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="489:2669" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="1371:1616" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="1667:1958" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="1901:1954" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1542299053801" expanded="true" signature="2011:2229" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="2172:2225" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1542299053801" expanded="true" signature="2282:2509" ph="{...}" />
-                <marker date="1542299053801" expanded="true" signature="2452:2505" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1542299053801" expanded="true" signature="2540:2663" ph="{...}" />
+                <marker date="1542733545000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542733545000" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
+                <marker date="1542733545000" expanded="true" signature="219:2877" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="455:463" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="515:2689" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="1387:1635" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="1686:1982" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="1925:1978" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1542733545000" expanded="true" signature="2033:2252" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="2195:2248" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1542733545000" expanded="true" signature="2303:2531" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="2474:2527" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1542733545000" expanded="true" signature="2563:2686" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="2779:2875" ph="{...}" />
+                <marker date="1542733545000" expanded="true" signature="2826:2872" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+            <state relative-caret-position="465">
+              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
-                <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
-                <marker date="1542132832806" expanded="true" signature="258:1146" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
-                <marker date="1542132832806" expanded="true" signature="683:738" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="761:845" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
+                <marker date="1542733884000" expanded="true" signature="6:158" ph="..." />
+                <marker date="1542733884000" expanded="true" signature="207:641" ph="{...}" />
+                <marker date="1542733884000" expanded="true" signature="279:354" ph="/* The end of game text that displays &quot;SUPER... HOT&quot; ... */" />
+                <marker date="1542733884000" expanded="true" signature="493:517" ph="{...}" />
+                <marker date="1542733884000" expanded="true" signature="535:639" ph="{...}" />
+                <marker date="1542733884000" expanded="true" signature="560:633" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,13 +165,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/playerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JackScripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,7 +181,9 @@
         <option value="$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsSean/playerController.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" />
+        <option value="$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs" />
       </list>
     </option>
   </component>
@@ -160,23 +193,23 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1665" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,11 +260,14 @@
       <workItem from="1541693784390" duration="4228000" />
       <workItem from="1542078905561" duration="6740000" />
       <workItem from="1542298732826" duration="333000" />
+      <workItem from="1542729888682" duration="148000" />
+      <workItem from="1542730174857" duration="934000" />
+      <workItem from="1542731269067" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16770000" />
+    <option name="totallyTimeSpent" value="20582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,10 +279,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,13 +354,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/PlayerMovement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -339,54 +368,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
+    <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/MouseLook.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <marker date="1542299053801" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542299053801" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-            <marker date="1542299053801" expanded="true" signature="219:2671" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="425:435" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="489:2669" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="1371:1616" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="1667:1958" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="1901:1954" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1542299053801" expanded="true" signature="2011:2229" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="2172:2225" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1542299053801" expanded="true" signature="2282:2509" ph="{...}" />
-            <marker date="1542299053801" expanded="true" signature="2452:2505" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1542299053801" expanded="true" signature="2540:2663" ph="{...}" />
+            <marker date="1542731078000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542731078000" expanded="true" signature="122:3235" ph="{...}" />
+            <marker date="1542731078000" expanded="true" signature="455:622" ph="/* Assign this if there's a parent object controlling motion, such as a Character Controller. ... */" />
+            <marker date="1542731078000" expanded="true" signature="678:1017" ph="{...}" />
+            <marker date="1542731078000" expanded="true" signature="1037:3233" ph="{...}" />
+            <marker date="1542731078000" expanded="true" signature="1122:1196" ph="{...}" />
+            <marker date="1542731078000" expanded="true" signature="2837:3028" ph="{...}" />
+            <marker date="1542731078000" expanded="true" signature="3041:3227" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="52">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="83" lean-forward="true" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+        <state>
           <folding>
-            <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
-            <marker date="1542132832806" expanded="true" signature="258:1146" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
-            <marker date="1542132832806" expanded="true" signature="683:738" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="761:845" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
+            <marker date="1542729660000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542729660000" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
+            <marker date="1542729660000" expanded="true" signature="258:1146" ph="{...}" />
+            <marker date="1542729660000" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
+            <marker date="1542729660000" expanded="true" signature="683:738" ph="{...}" />
+            <marker date="1542729660000" expanded="true" signature="761:845" ph="{...}" />
+            <marker date="1542729660000" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <folding>
+            <marker date="1542732142000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542732142000" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
+            <marker date="1542732142000" expanded="true" signature="261:2763" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="412:503" ph="/* p ... */" />
+            <marker date="1542732142000" expanded="true" signature="812:935" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="990:1839" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="1030:1421" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="1482:1832" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="1490:1773" ph="/* holdPos =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z+1 ... */" />
+            <marker date="1542732142000" expanded="true" signature="1813:1828" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="2749:2756" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="2749:2753" ph="{...}" />
+            <marker date="1542732142000" expanded="true" signature="1990:2044" ph="/* isHolding = true; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+          <folding>
+            <marker date="1542733545000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542733545000" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
+            <marker date="1542733545000" expanded="true" signature="219:2877" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="455:463" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="515:2689" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="1387:1635" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="1686:1982" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="1925:1978" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1542733545000" expanded="true" signature="2033:2252" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="2195:2248" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1542733545000" expanded="true" signature="2303:2531" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="2474:2527" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1542733545000" expanded="true" signature="2563:2686" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="2779:2875" ph="{...}" />
+            <marker date="1542733545000" expanded="true" signature="2826:2872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <marker date="1542733884000" expanded="true" signature="6:158" ph="..." />
+            <marker date="1542733884000" expanded="true" signature="207:641" ph="{...}" />
+            <marker date="1542733884000" expanded="true" signature="279:354" ph="/* The end of game text that displays &quot;SUPER... HOT&quot; ... */" />
+            <marker date="1542733884000" expanded="true" signature="493:517" ph="{...}" />
+            <marker date="1542733884000" expanded="true" signature="535:639" ph="{...}" />
+            <marker date="1542733884000" expanded="true" signature="560:633" ph="{...}" />
           </folding>
         </state>
       </provider>
