@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-    public class MouseLook : MonoBehaviour
+public class MouseLook : MonoBehaviour
 {
     Vector2 mouseAbsolute;
     Vector2 smoothMouse;
