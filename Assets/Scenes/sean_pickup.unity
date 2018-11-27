@@ -586,7 +586,6 @@ GameObject:
   - component: {fileID: 1741220575}
   - component: {fileID: 1741220574}
   - component: {fileID: 1741220573}
-  - component: {fileID: 1741220572}
   - component: {fileID: 1741220571}
   m_Layer: 10
   m_Name: GunPos
@@ -623,22 +622,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1741220572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1741220569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7a22e3f6221f640ad15009966dc8ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {x: 0, y: 0, z: 0}
-  player: {fileID: 1757891460}
-  cameraScript: {fileID: 534669906}
-  pickUpSpeed: 5
-  isHolding: 0
 --- !u!65 &1741220573
 BoxCollider:
   m_ObjectHideFlags: 0
