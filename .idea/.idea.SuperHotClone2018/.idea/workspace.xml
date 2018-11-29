@@ -44,30 +44,29 @@
     <session id="-866588876">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="6" />
+          <entry key="cs" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="6" />
+          <entry key="C#" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="943" />
+          <entry key="cs" value="801" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="943" />
+          <entry key="C#" value="801" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -75,7 +74,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,12 +90,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="879" />
+          <entry key="cs" value="1533" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="879" />
+          <entry key="C#" value="1533" />
         </counts>
       </usages-collector>
     </session>
@@ -103,107 +103,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="109" column="51" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="51" />
+            <state relative-caret-position="-222">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <marker date="1543506382648" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543506382648" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-                <marker date="1543506382648" expanded="true" signature="219:3551" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
-                <marker date="1543506382648" expanded="true" signature="490:500" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="554:3237" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
-                <marker date="1543506382648" expanded="true" signature="1699:1876" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
-                <marker date="1543506382648" expanded="true" signature="1926:2173" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="1934:2086" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
-                <marker date="1543506382648" expanded="true" signature="2225:2518" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="2461:2514" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1543506382648" expanded="true" signature="2571:2791" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="2734:2787" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1543506382648" expanded="true" signature="2844:3073" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="3016:3069" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1543506382648" expanded="true" signature="3108:3231" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="3259:3418" ph="{...}" />
-                <marker date="1543506382648" expanded="true" signature="3497:3549" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <marker date="1543329474049" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543329474049" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-                <marker date="1543329474049" expanded="true" signature="261:2341" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="580:641" ph="/* speed in which the object will fly towards the player ... */" />
-                <marker date="1543329474049" expanded="true" signature="674:837" ph="/* state int ... */" />
-                <marker date="1543329474049" expanded="true" signature="1016:1173" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="1228:2156" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="1252:1326" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="1293:1322" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="1349:1740" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="1763:2149" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="2264:2334" ph="{...}" />
-                <marker date="1543329474049" expanded="true" signature="2305:2331" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <marker date="1543503637448" expanded="false" signature="6:158" ph="..." />
-                <marker date="1543503637448" expanded="true" signature="207:641" ph="{...}" />
-                <marker date="1543503637448" expanded="true" signature="279:354" ph="/* The end of game text that displays &quot;SUPER... HOT&quot; ... */" />
-                <marker date="1543503637448" expanded="true" signature="493:517" ph="{...}" />
-                <marker date="1543503637448" expanded="true" signature="535:639" ph="{...}" />
-                <marker date="1543503637448" expanded="true" signature="560:633" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1542568804182" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542568804182" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-                <marker date="1542568804182" expanded="true" signature="317:1127" ph="{...}" />
-                <marker date="1542568804182" expanded="true" signature="494:501" ph="{...}" />
-                <marker date="1542568804182" expanded="true" signature="520:1122" ph="{...}" />
-                <marker date="1542568804182" expanded="true" signature="912:1119" ph="{...}" />
-                <marker date="1542568804182" expanded="true" signature="959:1076" ph="{...}" />
-                <marker date="1542568804182" expanded="true" signature="997:1071" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
-              <folding>
-                <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
-                <marker date="1542132832806" expanded="true" signature="258:1146" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
-                <marker date="1542132832806" expanded="true" signature="683:738" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="761:845" ph="{...}" />
-                <marker date="1542132832806" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
+                <marker date="1543507045721" expanded="false" signature="6:94" ph="..." />
+                <marker date="1543507045721" expanded="true" signature="96:170" ph="/* USAGE: Put this on a NPC ... */" />
+                <marker date="1543507045721" expanded="true" signature="211:1453" ph="{...}" />
+                <marker date="1543507045721" expanded="true" signature="480:1451" ph="{...}" />
+                <marker date="1543507045721" expanded="true" signature="1158:1392" ph="{...}" />
+                <marker date="1543507045721" expanded="true" signature="1203:1387" ph="{...}" />
+                <marker date="1543507045721" expanded="true" signature="1280:1382" ph="{...}" />
+                <marker date="1543507045721" expanded="true" signature="1399:1447" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -214,19 +126,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>isHolding</find>
-      <find>upDownRotation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/playerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -236,8 +147,8 @@
         <option value="$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsSean/playerController.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" />
+        <option value="$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs" />
       </list>
     </option>
   </component>
@@ -257,10 +168,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
@@ -315,13 +226,12 @@
       <workItem from="1542078905561" duration="6740000" />
       <workItem from="1542298732826" duration="333000" />
       <workItem from="1542731563146" duration="1849000" />
-      <workItem from="1543334898100" duration="3280000" />
-      <workItem from="1543504041796" duration="1380000" />
+      <workItem from="1543503632794" duration="3409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23279000" />
+    <option name="totallyTimeSpent" value="22028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +246,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3395973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,6 +325,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/playerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -422,101 +339,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="600">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <marker date="1543329474049" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543329474049" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-            <marker date="1543329474049" expanded="true" signature="261:2341" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="580:641" ph="/* speed in which the object will fly towards the player ... */" />
-            <marker date="1543329474049" expanded="true" signature="674:837" ph="/* state int ... */" />
-            <marker date="1543329474049" expanded="true" signature="1016:1173" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="1228:2156" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="1252:1326" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="1293:1322" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="1349:1740" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="1763:2149" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="2264:2334" ph="{...}" />
-            <marker date="1543329474049" expanded="true" signature="2305:2331" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="6:78" ph="..." />
+            <marker date="1543337089019" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
+            <marker date="1543337089019" expanded="true" signature="219:3397" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
+            <marker date="1543337089019" expanded="true" signature="490:500" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="554:3210" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="1672:1849" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
+            <marker date="1543337089019" expanded="true" signature="1899:2146" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="1907:2059" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
+            <marker date="1543337089019" expanded="true" signature="2198:2491" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="2434:2487" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1543337089019" expanded="true" signature="2544:2764" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="2707:2760" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1543337089019" expanded="true" signature="2817:3046" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="2989:3042" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1543337089019" expanded="true" signature="3081:3204" ph="{...}" />
+            <marker date="1543337089019" expanded="true" signature="3232:3391" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="507">
           <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
           <folding>
-            <marker date="1542132832806" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542132832806" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
-            <marker date="1542132832806" expanded="true" signature="258:1146" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
-            <marker date="1542132832806" expanded="true" signature="683:738" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="761:845" ph="{...}" />
-            <marker date="1542132832806" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
+            <marker date="1542731314251" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542731314251" expanded="true" signature="80:217" ph="/* USAGE: put this on an empty object called TimeManager ... */" />
+            <marker date="1542731314251" expanded="true" signature="258:1146" ph="{...}" />
+            <marker date="1542731314251" expanded="true" signature="264:342" ph="/* public float slowAcceleration = 0.3f; ... */" />
+            <marker date="1542731314251" expanded="true" signature="683:738" ph="{...}" />
+            <marker date="1542731314251" expanded="true" signature="761:845" ph="{...}" />
+            <marker date="1542731314251" expanded="true" signature="848:1141" ph="/* public void SlowDown() //a function to call when you want something to slow down ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-222">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <marker date="1542568804182" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542568804182" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-            <marker date="1542568804182" expanded="true" signature="317:1127" ph="{...}" />
-            <marker date="1542568804182" expanded="true" signature="494:501" ph="{...}" />
-            <marker date="1542568804182" expanded="true" signature="520:1122" ph="{...}" />
-            <marker date="1542568804182" expanded="true" signature="912:1119" ph="{...}" />
-            <marker date="1542568804182" expanded="true" signature="959:1076" ph="{...}" />
-            <marker date="1542568804182" expanded="true" signature="997:1071" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <marker date="1543503637448" expanded="false" signature="6:158" ph="..." />
-            <marker date="1543503637448" expanded="true" signature="207:641" ph="{...}" />
-            <marker date="1543503637448" expanded="true" signature="279:354" ph="/* The end of game text that displays &quot;SUPER... HOT&quot; ... */" />
-            <marker date="1543503637448" expanded="true" signature="493:517" ph="{...}" />
-            <marker date="1543503637448" expanded="true" signature="535:639" ph="{...}" />
-            <marker date="1543503637448" expanded="true" signature="560:633" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="109" column="51" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="51" />
-          <folding>
-            <marker date="1543506382648" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543506382648" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-            <marker date="1543506382648" expanded="true" signature="219:3551" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
-            <marker date="1543506382648" expanded="true" signature="490:500" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="554:3237" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
-            <marker date="1543506382648" expanded="true" signature="1699:1876" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
-            <marker date="1543506382648" expanded="true" signature="1926:2173" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="1934:2086" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
-            <marker date="1543506382648" expanded="true" signature="2225:2518" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="2461:2514" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1543506382648" expanded="true" signature="2571:2791" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="2734:2787" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1543506382648" expanded="true" signature="2844:3073" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="3016:3069" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1543506382648" expanded="true" signature="3108:3231" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="3259:3418" ph="{...}" />
-            <marker date="1543506382648" expanded="true" signature="3497:3549" ph="{...}" />
+            <marker date="1543507045721" expanded="false" signature="6:94" ph="..." />
+            <marker date="1543507045721" expanded="true" signature="96:170" ph="/* USAGE: Put this on a NPC ... */" />
+            <marker date="1543507045721" expanded="true" signature="211:1453" ph="{...}" />
+            <marker date="1543507045721" expanded="true" signature="480:1451" ph="{...}" />
+            <marker date="1543507045721" expanded="true" signature="1158:1392" ph="{...}" />
+            <marker date="1543507045721" expanded="true" signature="1203:1387" ph="{...}" />
+            <marker date="1543507045721" expanded="true" signature="1280:1382" ph="{...}" />
+            <marker date="1543507045721" expanded="true" signature="1399:1447" ph="{...}" />
           </folding>
         </state>
       </provider>
