@@ -27,20 +27,22 @@ public class cubeProtoMiove : MonoBehaviour
 		float mouseX = Input.GetAxis("Mouse X") * lookSpeed * Time.deltaTime;	//mouseX = horizontal mouseDelta
 		float mouseY = Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;	//mouseY = vertical mouseDelta
 		
-		transform.Rotate(0f, -mouseX, 0f);
+		transform.Rotate(0f, mouseX, 0f);
 		//Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation
-		Camera.main.transform.Rotate(-mouseY, 0f,0f); //same thing
-		
-
-		Camera.main.transform.localEulerAngles -= new Vector3( //making the camera rotate 
-			0,
-			0,
-			Camera.main.transform.localEulerAngles.z 
-		);
-		
+		//Camera.main.transform.Rotate(-mouseY, 0f,0f); //same thing
 		upDownRotation -= mouseY; //setting up downRotation variable to the y axis
-		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80); //clamping the camera
+		Debug.Log(mouseY); 
+		upDownRotation = Mathf.Clamp(upDownRotation, -70, 70); //clamping the camera
 
+		Camera.main.transform.localEulerAngles = new Vector3( //making the camera rotate 
+			upDownRotation,
+			0f,
+			0f
+		);
+
+		
+		
+		Debug.Log(upDownRotation); 
 		TimeManager.instance.TimeTarget = 0.12f; //setting the default time target (as in how slow it starts out) 
 		
 		
