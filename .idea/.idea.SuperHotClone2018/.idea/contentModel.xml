@@ -11,6 +11,9 @@
           <e p="RotateToMouse.cs" t="Include" />
           <e p="SpawnProjectiles.cs" t="Include" />
         </e>
+        <e p="JackScripts" t="Include">
+          <e p="GameManagerScript.cs" t="Include" />
+        </e>
         <e p="RyanScript" t="Include">
           <e p="NPCBehavior.cs" t="Include" />
         </e>

@@ -103,5 +103,13 @@ public class cubeProtoMiove : MonoBehaviour
 		GetComponent<Rigidbody>().velocity = inputVector; //no need for Time.deltaTime, already fixed framerate
 	}
 	
-	
+	//collision making you die
+
+	private void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.tag == "npcBullet")
+		{
+			GameManagerScript.isAlive = false; 
+		}
+	}
 }
