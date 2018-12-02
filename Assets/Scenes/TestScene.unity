@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6330866, g: 0.7949638, b: 0.77651983, a: 1}
+  m_IndirectSpecularColor: {r: 0.6330863, g: 0.7949636, b: 0.7765194, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4072,8 +4072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
   player: {fileID: 1612660865}
-  Rb: {fileID: 0}
   cameraScript: {fileID: 1781254527}
+  SpawnProjectiles: {fileID: 1769355257}
   pickUpSpeed: 5
   isHolding: 0
 --- !u!54 &1493837728
@@ -4693,9 +4693,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 823062583}
-  vfx:
-  - {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a, type: 2}
+  bullet: {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a, type: 2}
   RotateToMouse: {fileID: 0}
+  isHoldingGun: 0
+  bulletsInGun: 5
 --- !u!4 &1769355258
 Transform:
   m_ObjectHideFlags: 0
