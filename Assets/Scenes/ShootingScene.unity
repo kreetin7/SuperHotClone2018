@@ -726,6 +726,8 @@ MonoBehaviour:
   vfx:
   - {fileID: 1865761152}
   RotateToMouse: {fileID: 2049493675}
+  isHoldingGun: 0
+  bulletsInGun: 5
 --- !u!4 &1787416508
 Transform:
   m_ObjectHideFlags: 0
