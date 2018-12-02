@@ -723,8 +723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1389869388}
-  vfx:
-  - {fileID: 1865761152}
+  bullet: {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a, type: 2}
   RotateToMouse: {fileID: 2049493675}
   isHoldingGun: 0
   bulletsInGun: 5
@@ -747,11 +746,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1865761152 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a,
-    type: 2}
-  m_PrefabInternal: {fileID: 476311448}
 --- !u!1 &1869772411
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,8 @@ public class itemPickUp : MonoBehaviour {
 	public lookPickUp cameraScript;
 	//
 	
+	public SpawnProjectiles SpawnProjectiles;
+	
 	//speed in which the object will fly towards the player
 	public float pickUpSpeed;
 	
@@ -78,6 +80,7 @@ public class itemPickUp : MonoBehaviour {
 			transform.rotation = gunPosTrans.rotation;
 			Rb.velocity = Vector3.zero;
 			Rb.angularVelocity = Vector3.zero;
+			SpawnProjectiles.setGunBoolTrue();
 		}
 
 		if (Input.GetMouseButton(1) && itemState == 3)
@@ -90,6 +93,7 @@ public class itemPickUp : MonoBehaviour {
 			transform.parent = null;
 			Rb.useGravity = true;
 			Rb.AddForce(Camera.main.transform.forward * throwForce);
+			SpawnProjectiles.setGunBoolFalse();
 		}
 	}
 
