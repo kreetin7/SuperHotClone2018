@@ -71,8 +71,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4911182453124190}
   - component: {fileID: 114844013391794988}
-  - component: {fileID: 65685591726436548}
-  - component: {fileID: 54209215326644608}
+  - component: {fileID: 65647424940548050}
+  - component: {fileID: 54436217523780426}
   m_Layer: 0
   m_Name: VFX_Projectiles
   m_TagString: Untagged
@@ -126,8 +126,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1913318731361404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.97, y: 0.31, z: -0.87}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.97, y: 0.538, z: -0.524}
+  m_LocalScale: {x: 0.31225, y: 0.3653542, z: 0.34051}
   m_Children:
   - {fileID: 4732140163585674}
   - {fileID: 4319404798646294}
@@ -135,7 +135,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54209215326644608
+--- !u!54 &54436217523780426
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,7 +150,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65685591726436548
+--- !u!65 &65647424940548050
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,10 +158,10 @@ BoxCollider:
   m_GameObject: {fileID: 1913318731361404}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.37157345, y: 0.27310467, z: 0.41826653}
-  m_Center: {x: -0.05249548, y: 0.053015232, z: 0.7172781}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114844013391794988
 MonoBehaviour:
   m_ObjectHideFlags: 1
