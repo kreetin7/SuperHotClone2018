@@ -37,7 +37,7 @@ public class lookPickUp : MonoBehaviour
 					itemHit = true;
 				}
 			} else {
-				//itemHit = false;
+				itemHit = false;
 			}
 			
 		}
