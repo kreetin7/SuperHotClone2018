@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.63308597, g: 0.79496336, b: 0.7765189, a: 1}
+  m_IndirectSpecularColor: {r: 0.6330863, g: 0.7949636, b: 0.7765194, a: 1}
+
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2149,11 +2150,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823062583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0044488474, y: 0.006101831, z: 0.030252162}
-  m_LocalScale: {x: 0.025422096, y: 0.025422096, z: 0.025422096}
+  m_LocalPosition: {x: 0.0243, y: -0.0163, z: 0.1523}
+  m_LocalScale: {x: 0.03803912, y: 0.041722797, z: 0.0252939}
   m_Children: []
-  m_Father: {fileID: 1493837725}
-  m_RootOrder: 5
+  m_Father: {fileID: 1781254526}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &841217306
 GameObject:
@@ -4026,11 +4027,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6cf85c85be57783488c9c00a572026fa,
     type: 3}
   m_PrefabInternal: {fileID: 1977184380}
---- !u!4 &1493837725 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 6cf85c85be57783488c9c00a572026fa,
-    type: 3}
-  m_PrefabInternal: {fileID: 1977184380}
 --- !u!65 &1493837726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4056,8 +4052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
   player: {fileID: 1612660865}
-  Rb: {fileID: 0}
   cameraScript: {fileID: 1781254527}
+  SpawnProjectiles: {fileID: 1769355257}
   pickUpSpeed: 5
   isHolding: 0
 --- !u!54 &1493837728
@@ -4608,9 +4604,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 823062583}
-  vfx:
-  - {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a, type: 2}
+  bullet: {fileID: 1402779291166166, guid: f0f483a788381467eaa632569b14401a, type: 2}
   RotateToMouse: {fileID: 0}
+  isHoldingGun: 0
+  bulletsInGun: 5
 --- !u!4 &1769355258
 Transform:
   m_ObjectHideFlags: 0
@@ -4700,6 +4697,7 @@ Transform:
   m_LocalScale: {x: 5.257745, y: 4.793543, z: 7.9070454}
   m_Children:
   - {fileID: 1328817475}
+  - {fileID: 823062587}
   m_Father: {fileID: 1612660869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5451,7 +5449,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: .
+  m_Text: 
 --- !u!222 &2106060475
 CanvasRenderer:
   m_ObjectHideFlags: 0
