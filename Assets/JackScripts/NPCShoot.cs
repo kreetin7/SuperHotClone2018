@@ -11,6 +11,7 @@ public class NPCShoot : MonoBehaviour
 	public List<GameObject> npcvfx = new List<GameObject>();
 	private float npcShootTimer = 60f;
 	private GameObject effectToSpawn;
+	
 	//Declarations
 
 	void Start () {
@@ -40,7 +41,8 @@ public class NPCShoot : MonoBehaviour
 		if (npcFirePoint != null)
 		{
 			//instantiate a bullet
-			//vfx = Instantiate(effectToSpawn, npcFirePoint.transform.position, GetComponent<NPCBehavior>().playerTarget);
+			vfx = Instantiate(effectToSpawn, npcFirePoint.transform.position,  this.transform.rotation);
+			Debug.Log("Bullet Spawned");
 		}
 	}
 }
