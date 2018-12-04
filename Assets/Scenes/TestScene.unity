@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6330863, g: 0.7949636, b: 0.7765194, a: 1}
+  m_IndirectSpecularColor: {r: 0.6330866, g: 0.7949638, b: 0.77651983, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -732,7 +732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: 15}
   m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228104849
@@ -1264,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 0}
+  m_AnchoredPosition: {x: 15, y: 0}
   m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465549856
@@ -2390,6 +2390,7 @@ GameObject:
   - component: {fileID: 874124753}
   - component: {fileID: 874124752}
   - component: {fileID: 874124751}
+  - component: {fileID: 874124756}
   - component: {fileID: 874124755}
   m_Layer: 0
   m_Name: TESt_npc_1
@@ -2480,6 +2481,18 @@ MonoBehaviour:
   timeUntilShoot: 0
   playerTarget: {fileID: 1612660869}
   turnMagnitude: 50
+--- !u!114 &874124756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874124750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725c25ec1a9a24745a8841051f3e39be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathTimer: 3
 --- !u!1 &941262578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,7 +3747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -20}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347027216
@@ -3782,6 +3795,7 @@ GameObject:
   - component: {fileID: 1382389851}
   - component: {fileID: 1382389850}
   - component: {fileID: 1382389849}
+  - component: {fileID: 1382389854}
   - component: {fileID: 1382389853}
   m_Layer: 0
   m_Name: TEST_npc_2
@@ -3872,6 +3886,18 @@ MonoBehaviour:
   timeUntilShoot: 0
   playerTarget: {fileID: 1612660869}
   turnMagnitude: 50
+--- !u!114 &1382389854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382389848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725c25ec1a9a24745a8841051f3e39be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathTimer: 3
 --- !u!1 &1397397072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,7 +4149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -15, y: 0}
   m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518724820
@@ -5393,6 +5419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019446425}
   - component: {fileID: 2019446427}
+  - component: {fileID: 2019446428}
   - component: {fileID: 2019446426}
   m_Layer: 5
   m_Name: crosshair
@@ -5448,6 +5475,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2019446424}
   m_CullTransparentMesh: 0
+--- !u!114 &2019446428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019446424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c96e32dac66e36a4e93a1270ad3896a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!1 &2086263235
 GameObject:
   m_ObjectHideFlags: 0
