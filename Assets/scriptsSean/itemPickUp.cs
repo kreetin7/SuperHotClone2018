@@ -80,6 +80,7 @@ public class itemPickUp : MonoBehaviour {
 			transform.rotation = gunPosTrans.rotation;
 			Rb.velocity = Vector3.zero;
 			Rb.angularVelocity = Vector3.zero;
+			Rb.isKinematic = true;
 			SpawnProjectiles.setGunBoolTrue();
 		}
 
@@ -91,6 +92,7 @@ public class itemPickUp : MonoBehaviour {
 		if (itemState == 4)
 		{
 			transform.parent = null;
+			Rb.isKinematic = false;
 			Rb.useGravity = true;
 			Rb.AddForce(Camera.main.transform.forward * throwForce);
 			SpawnProjectiles.setGunBoolFalse();
@@ -106,9 +108,14 @@ public class itemPickUp : MonoBehaviour {
 			itemState = 3;
 		}
 
-		if (itemState == 4 && col.gameObject.tag == "Respawn")
+		if (itemState == 4 && col.gameObject.tag == "Finish")
 		{
-			itemState = 1;
+			Destroy(gameObject);
+		} 
+		else if (itemState == 4 && col.gameObject.tag == "npc")
+		{
+			Destroy(gameObject);
+			Destroy(col.gameObject);
 		}
 	}
 	
