@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Roussy\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Roussy\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Roussy\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_SuperHotClone2018.188788850.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Roussy\Documents\SuperHotClone2018" t="IncludeRecursive">
+    <e p="C:\Users\Ren Hughes\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ren Hughes\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_SuperHotClone2018.-710113824.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Ren Hughes\Documents\NYU\SuperHotClone2018" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Charlie's Scripts" t="Include">
@@ -14,12 +13,15 @@
         </e>
         <e p="JackScripts" t="Include">
           <e p="GameManagerScript.cs" t="Include" />
+          <e p="NPCShoot.cs" t="Include" />
         </e>
         <e p="RyanScript" t="Include">
           <e p="NPCBehavior.cs" t="Include" />
         </e>
         <e p="scriptsRen" t="Include">
+          <e p="Animation.cs" t="Include" />
           <e p="cubeProtoMiove.cs" t="Include" />
+          <e p="EnemyDeath.cs" t="Include" />
           <e p="TimeManager.cs" t="Include" />
         </e>
         <e p="scriptsSean" t="Include">
