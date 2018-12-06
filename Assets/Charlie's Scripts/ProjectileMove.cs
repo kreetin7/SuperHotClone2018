@@ -9,6 +9,8 @@ public class ProjectileMove : MonoBehaviour
 
 	//speed of projectile
 	public float speed;
+	public GameObject deathParticles;
+	private Vector3 pos;
 
 	//firing rate of prpjectiles (not relevant)
 	public float fireRate;
@@ -36,8 +38,19 @@ public class ProjectileMove : MonoBehaviour
  
 	void OnCollisionEnter(Collision col)
 	{
+		pos = this.gameObject.transform.position;
+		
 		Debug.Log(col.gameObject.name);
 		speed = 0;
-		Destroy(this.gameObject);
+		if (col.gameObject.layer == 14)
+		{
+			Instantiate(deathParticles, pos, Quaternion.identity);
+			Destroy(this.gameObject);
+			
+		}
+		else
+		{
+			Destroy(this.gameObject);
+		}
 	} 
 }
