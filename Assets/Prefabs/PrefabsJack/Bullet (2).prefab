@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114663380701586388}
   - component: {fileID: 54279559420175044}
   - component: {fileID: 96683807266679504}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Bullet (2)
   m_TagString: npcBullet
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 23854431674229210}
   m_Layer: 0
   m_Name: SuperHotBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
