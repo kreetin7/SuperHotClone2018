@@ -15,6 +15,7 @@ public class SpawnProjectiles : MonoBehaviour {
 	//private GameObject effectToSpawn; //old code
 	private float timeToFire = 0;
 
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -35,6 +36,7 @@ public class SpawnProjectiles : MonoBehaviour {
 					timeToFire = Time.time + 1 / bullet.GetComponent<ProjectileMove>().fireRate; //used to be timeToFire = Time.time + 1 / effectToSpawn.GetComponent<ProjectileMove>().fireRate;
 					SpawnVFX();
 					bulletsInGun = bulletsInGun - 1;
+					
 				}
 			}
 		}

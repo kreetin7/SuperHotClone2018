@@ -9,7 +9,7 @@ public class NPCShoot : MonoBehaviour
 	//Declarations
 	public GameObject npcFirePoint;
 	public List<GameObject> npcvfx = new List<GameObject>();
-	private float npcShootTimer = 60f;
+	private float npcShootTimer = 120f;
 	private GameObject effectToSpawn;
 	
 	//Declarations
@@ -28,7 +28,7 @@ public class NPCShoot : MonoBehaviour
 		if (npcFirePoint != null && npcShootTimer < 0)
 		{
 			//Shooting buffer for the npcs
-			npcShootTimer = 60f;
+			npcShootTimer = 120f;
 			SpawnVFX();
 		}
 	}
