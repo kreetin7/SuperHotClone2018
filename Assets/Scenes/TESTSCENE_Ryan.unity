@@ -930,8 +930,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 20}
-  m_SizeDelta: {x: 15, y: 15}
+  m_AnchoredPosition: {x: 0, y: 7}
+  m_SizeDelta: {x: 20, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228104849
 MonoBehaviour:
@@ -1406,8 +1406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: 15, y: 15}
+  m_AnchoredPosition: {x: 7, y: 0}
+  m_SizeDelta: {x: 20, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465549856
 MonoBehaviour:
@@ -2849,7 +2849,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 874124750}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d359142007852c948bef0b3a8af76855, type: 2}
   m_CullingMode: 0
@@ -4222,8 +4222,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -20}
-  m_SizeDelta: {x: 15, y: 15}
+  m_AnchoredPosition: {x: 0, y: -7}
+  m_SizeDelta: {x: 20, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347027216
 MonoBehaviour:
@@ -5172,6 +5172,10 @@ Prefab:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 541cd74ecd1f9514b9d66ca3cc3fa26e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 541cd74ecd1f9514b9d66ca3cc3fa26e, type: 3}
   m_IsPrefabAsset: 0
@@ -5511,8 +5515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 0}
-  m_SizeDelta: {x: 15, y: 15}
+  m_AnchoredPosition: {x: -7, y: 0}
+  m_SizeDelta: {x: 20, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518724820
 MonoBehaviour:
@@ -5675,7 +5679,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1520817060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c02f0617d25c28e4d9c30dca10737333, type: 2}
   m_CullingMode: 0
@@ -7046,26 +7050,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1950731693}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1955324742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100050, guid: 541cd74ecd1f9514b9d66ca3cc3fa26e,
-    type: 3}
-  m_PrefabInternal: {fileID: 1414680298}
---- !u!114 &1955324746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1955324742}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a84c23eb57fc041955e65572e97a70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visDistance: 80
-  timeUntilShoot: 0
-  playerTarget: {fileID: 1612660869}
-  turnMagnitude: 50
 --- !u!1001 &1977184380
 Prefab:
   m_ObjectHideFlags: 0
@@ -7244,6 +7228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96e32dac66e36a4e93a1270ad3896a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnProjectiles: {fileID: 1769355257}
   anim: {fileID: 0}
 --- !u!1001 &2080103700
 Prefab:
@@ -7992,26 +7977,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 541cd74ecd1f9514b9d66ca3cc3fa26e,
     type: 3}
   m_PrefabInternal: {fileID: 2080103700}
---- !u!1 &2080103702 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100050, guid: 541cd74ecd1f9514b9d66ca3cc3fa26e,
-    type: 3}
-  m_PrefabInternal: {fileID: 2080103700}
---- !u!114 &2080103703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2080103702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a84c23eb57fc041955e65572e97a70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visDistance: 80
-  timeUntilShoot: 0
-  playerTarget: {fileID: 1612660869}
-  turnMagnitude: 50
 --- !u!1 &2086263235
 GameObject:
   m_ObjectHideFlags: 0
