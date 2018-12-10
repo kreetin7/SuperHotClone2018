@@ -276,7 +276,7 @@ Prefab:
     - target: {fileID: 114029189891354862, guid: 9e8590def9fa0f6449d9fdc698ee5e14,
         type: 2}
       propertyPath: TimeSpeed
-      value: 0.02
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e8590def9fa0f6449d9fdc698ee5e14, type: 2}
@@ -5975,7 +5975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2119f4665e4f284d8490479c4e53190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubeSpeed: 6.3
+  CubeSpeed: 6
   lookSpeed: 300
 --- !u!114 &1612660871
 MonoBehaviour:
