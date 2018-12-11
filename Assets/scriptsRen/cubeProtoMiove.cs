@@ -43,7 +43,7 @@ public class cubeProtoMiove : MonoBehaviour
 		
 		
 		Debug.Log(upDownRotation); 
-		TimeManager.instance.TimeTarget = 0.12f; //setting the default time target (as in how slow it starts out) 
+		TimeManager.instance.TimeTarget = 0.05f; //setting the default time target (as in how slow it starts out) 
 		
 		
 		float vertical = Input.GetAxis("Vertical"); //vertical is for W/S or Up/Down on keyboard
