@@ -5,18 +5,25 @@ using UnityEngine;
 public class Animation : MonoBehaviour
 {
 
+	public SpawnProjectiles SpawnProjectiles; 
 	public Animator anim; 
 	// Use this for initialization
 	void Start ()
 	{
 		anim = GetComponent<Animator>();
+		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (Input.GetMouseButtonDown(0))
+	void Update ()
+	{
+		if (Input.GetMouseButtonDown(0) ) 
 		{
-			anim.SetBool("Shoot", true);
+			if (SpawnProjectiles.isHoldingGun == true)
+			{
+				anim.SetBool("Shoot", true);
+			}
+
 		}
 		else
 		{

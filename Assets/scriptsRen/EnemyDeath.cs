@@ -7,13 +7,16 @@ using UnityEngine;
 public class EnemyDeath : MonoBehaviour
 {
 
-	public Animator animD; 
+	public Animator animD;
+
 	
  	public int DeathTimer = 3; 
 	// Use this for initialization
 	void Start ()
 	{
-		animD = GetComponent<Animator>(); 
+		
+			animD = GetComponent<Animator>();
+		animD.enabled = false; 
 	}
 
 	IEnumerator DeathCorotine() //a coroutine that waits while we die 
@@ -26,6 +29,7 @@ public class EnemyDeath : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Bullet")
 		{
+			animD.enabled = true; 
 			animD.SetBool("isDead", true); 
 			StartCoroutine(DeathCorotine()); //start the coroutine 
 		}
