@@ -309,4 +309,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  deathParticles: {fileID: 1823365385152448, guid: b08fc8573321946c885793895b465ea8,
+    type: 2}
   fireRate: 4
