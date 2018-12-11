@@ -62,7 +62,7 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
-
+		TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
 		yield return new WaitForSeconds(2f);
 		endGameText.text = "HOT";
