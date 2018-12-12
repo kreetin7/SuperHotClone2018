@@ -27,6 +27,8 @@ public class GameManagerScript : MonoBehaviour
 	
 	void Start()
 	{
+		// isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet.
+		// It is set to false in cubeProtoMiove.cs 
 		isAlive = true; //Alive on start
 	}
 
