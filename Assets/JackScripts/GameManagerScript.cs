@@ -13,20 +13,21 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck1;
 	public GameObject npcCheck2;
 	
-	public static bool isAlive = true;//Boolean determining if player is alive or not
+	public static bool isAlive = false;//Boolean determining if player is alive or not
 	public static bool npcisAlive = true;
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
+	//ignore these for now
 	public Text endGameText;
+	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
-
+	//ignore these for now^
 	
 	
 	void Start()
 	{
-		// isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet.
-		// It is set to false in cubeProtoMiove.cs 
+		endGameText.text = ""; 
 		isAlive = true; //Alive on start
 	}
 
@@ -34,8 +35,8 @@ public class GameManagerScript : MonoBehaviour
 		
 		if (isAlive == false) //if you die
 		{
-			endGameText.text = "GAME OVER"; // display GAME OVER on the screen
-			SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
+			endGameText.text = "GAME"; // display GAME OVER on the screen
+			StartCoroutine(GameOverText()); 
 		}
 		
 		//if the npc dies
@@ -48,7 +49,7 @@ public class GameManagerScript : MonoBehaviour
 		{
 			npcisAlive = false;
 			endTitleCounter = 10f;
-			endTitleCounter = 1000f;
+			endTitleCounter += 1;
 		}
 
 		if (npcisAlive == false)
@@ -68,7 +69,20 @@ public class GameManagerScript : MonoBehaviour
 		endGameText.text = "HOT";
 		yield return new WaitForSeconds(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
-		
+	
+
+	}
+	
+	//Corountine for GAME OVER TEXT
+	IEnumerator GameOverText()
+	{
+		TimeManager.instance.TimeTarget = 1; 
+		yield return new WaitForSeconds(1f);
+		TimeManager.instance.TimeTarget = 1; 
+		endGameText.text = "OVER";
+		yield return new WaitForSeconds(1f);
+		SceneManager.LoadScene(1);// load Scene(1) in the build settings(Test Scene right now)
+		endGameText.text = ""; 
 	}
 	
 	
