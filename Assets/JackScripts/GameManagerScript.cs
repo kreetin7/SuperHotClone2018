@@ -13,16 +13,14 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck1;
 	public GameObject npcCheck2;
 	
-	public static bool isAlive = false;//Boolean determining if player is alive or not
+	public static bool isAlive = true;//Boolean determining if player is alive or not
 	public static bool npcisAlive = true;
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
-	//ignore these for now
 	public Text endGameText;
-	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
-	//ignore these for now^
+
 	
 	
 	void Start()
@@ -50,7 +48,7 @@ public class GameManagerScript : MonoBehaviour
 		{
 			npcisAlive = false;
 			endTitleCounter = 10f;
-			endTitleCounter += 1;
+			endTitleCounter = 1000f;
 		}
 
 		if (npcisAlive == false)
