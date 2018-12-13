@@ -31,7 +31,7 @@ public class cubeProtoMiove : MonoBehaviour
 		//Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation
 		//Camera.main.transform.Rotate(-mouseY, 0f,0f); //same thing
 		upDownRotation -= mouseY; //setting up downRotation variable to the y axis
-		Debug.Log(mouseY); 
+		
 		upDownRotation = Mathf.Clamp(upDownRotation, -70, 70); //clamping the camera
 
 		Camera.main.transform.localEulerAngles = new Vector3( //making the camera rotate 

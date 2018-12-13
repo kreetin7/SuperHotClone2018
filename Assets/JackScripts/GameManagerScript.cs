@@ -34,8 +34,8 @@ public class GameManagerScript : MonoBehaviour
 		
 		if (isAlive == false) //if you die
 		{
-			endGameText.text = "GAME OVER"; // display GAME OVER on the screen
-			SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
+			endGameText.text = "GAME"; // display GAME OVER on the screen
+			StartCoroutine(GameOverText()); 
 		}
 		
 		//if the npc dies
@@ -69,6 +69,16 @@ public class GameManagerScript : MonoBehaviour
 		yield return new WaitForSeconds(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
 		
+	}
+	
+	//Corountine for GAME OVER TEXT
+	IEnumerator GameOverText()
+	{
+		TimeManager.instance.TimeTarget = 1; 
+		yield return new WaitForSeconds(1f);
+		endGameText.text = "OVER";
+		yield return new WaitForSeconds(1f);
+		SceneManager.LoadScene(1);// load Scene(1) in the build settings(Test Scene right now)
 	}
 	
 	
