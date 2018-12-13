@@ -14,7 +14,7 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck2;
 	
 	public static bool isAlive = false;//Boolean determining if player is alive or not
-	public static bool npcisAlive = true;
+	public static bool npcisAlive = false;
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
@@ -70,6 +70,7 @@ public class GameManagerScript : MonoBehaviour
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
 		
 	}
+	
 	
 	
 }
