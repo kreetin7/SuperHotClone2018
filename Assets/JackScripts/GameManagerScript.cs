@@ -13,8 +13,8 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck1;
 	public GameObject npcCheck2;
 	
-	public static bool isAlive = true;//Boolean determining if player is alive or not
-	public static bool npcisAlive = true;
+	public static bool isAlive;//Boolean determining if player is alive or not
+	public static bool npcisAlive;
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
@@ -28,6 +28,7 @@ public class GameManagerScript : MonoBehaviour
 		// isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet.
 		// It is set to false in cubeProtoMiove.cs 
 		isAlive = true; //Alive on start
+		npcisAlive = true;
 	}
 
 	void Update () {
@@ -62,6 +63,7 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
+		Debug.Log("Coroutine for end text");
 		TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
 		yield return new WaitForSeconds(2f);
