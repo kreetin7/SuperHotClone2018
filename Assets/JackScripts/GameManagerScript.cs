@@ -27,6 +27,7 @@ public class GameManagerScript : MonoBehaviour
 	
 	void Start()
 	{
+		endGameText.text = ""; 
 		isAlive = true; //Alive on start
 	}
 
@@ -68,7 +69,8 @@ public class GameManagerScript : MonoBehaviour
 		endGameText.text = "HOT";
 		yield return new WaitForSeconds(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
-		
+	
+
 	}
 	
 	//Corountine for GAME OVER TEXT
@@ -76,9 +78,11 @@ public class GameManagerScript : MonoBehaviour
 	{
 		TimeManager.instance.TimeTarget = 1; 
 		yield return new WaitForSeconds(1f);
+		TimeManager.instance.TimeTarget = 1; 
 		endGameText.text = "OVER";
 		yield return new WaitForSeconds(1f);
 		SceneManager.LoadScene(1);// load Scene(1) in the build settings(Test Scene right now)
+		endGameText.text = ""; 
 	}
 	
 	
