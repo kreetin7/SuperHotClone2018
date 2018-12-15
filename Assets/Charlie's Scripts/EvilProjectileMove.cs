@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileMove : MonoBehaviour
+public class EvilProjectileMove : MonoBehaviour
 {
 
 	//This script handles the movement of the projectile

@@ -308,5 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84fcf4b8cf85f400f99b9baf9d2f206a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  fireRate: 4
+  speed: 35
+  deathParticles: {fileID: 1823365385152448, guid: b08fc8573321946c885793895b465ea8,
+    type: 2}
+  fireRate: 3
