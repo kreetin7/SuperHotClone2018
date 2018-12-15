@@ -66,7 +66,7 @@ public class itemPickUp : MonoBehaviour {
 			//transform.position = Vector3.MoveTowards(transform.position, destination, pickUpSpeed * Time.deltaTime);
 			Rb.useGravity = false;
 			Vector3 destination = (player.transform.position - transform.position).normalized;
-			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.deltaTime);
+			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);
 			Debug.DrawLine(transform.position, destination, Color.magenta);
 			transform.LookAt(destination);
 		}
