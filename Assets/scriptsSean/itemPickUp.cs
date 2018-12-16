@@ -64,12 +64,20 @@ public class itemPickUp : MonoBehaviour {
 			//old method of transforming towards player without using rigidbodies
 			//destination =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 			//transform.position = Vector3.MoveTowards(transform.position, destination, pickUpSpeed * Time.deltaTime);
+<<<<<<< HEAD
+			Rb.useGravity = false;
+			Vector3 destination = (player.transform.position - transform.position).normalized;
+			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);
+			Debug.DrawLine(transform.position, destination, Color.magenta);
+			transform.LookAt(destination);
+=======
 		
 			Rb.useGravity = false; // turn gravity off
 			Vector3 destination = (player.transform.position - transform.position).normalized; //initialize item's new destination
 			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.deltaTime);	//make the gun's rigid body move towards destination
 			Debug.DrawLine(transform.position, destination, Color.magenta);//debug line to see gun's direction
 			transform.LookAt(destination);//make gun look towards the player
+>>>>>>> RenMaster/master
 		}
 
 		if (itemState == 3)

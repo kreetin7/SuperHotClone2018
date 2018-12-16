@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//USAGE: put this on a cube
-//Intent: proto-"player controller" for prototyping time purposes, 
+//USAGE: put this on a capsule
+//Intent: moves the player, camera look, any any other code such as setting timeTarget that should be controlled by the player object
 public class cubeProtoMiove : MonoBehaviour
 {
 	//private float TimeTarget; 
@@ -24,8 +24,8 @@ public class cubeProtoMiove : MonoBehaviour
 	void Update ()
 	{
 
-		float mouseX = Input.GetAxis("Mouse X") * lookSpeed * Time.deltaTime;	//mouseX = horizontal mouseDelta
-		float mouseY = Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;	//mouseY = vertical mouseDelta
+		float mouseX = Input.GetAxis("Mouse X") * lookSpeed * Time.unscaledDeltaTime;	//mouseX = horizontal mouseDelta
+		float mouseY = Input.GetAxis("Mouse Y") * lookSpeed * Time.unscaledDeltaTime;	//mouseY = vertical mouseDelta
 		
 		transform.Rotate(0f, mouseX, 0f);
 		//Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation
@@ -57,7 +57,6 @@ public class cubeProtoMiove : MonoBehaviour
 		{
 			//moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason
 
-			//transform.Translate(0f, 0f,1f * CubeSpeed);
 			TimeManager.instance.TimeTarget = 1; //setting the target to the normal rate 
 
 
