@@ -20,6 +20,7 @@ public class GameManagerScript : MonoBehaviour
 	//The end of game text that displays "SUPER... HOT"
 	//ignore these for now
 	public Text endGameText;
+	public Text RestartText; 
 	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
 	//ignore these for now^
@@ -87,7 +88,7 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
-		Debug.Log("Coroutine Started");
+	
 		//TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
 		yield return new WaitForSecondsRealtime(2f);
@@ -103,7 +104,7 @@ public class GameManagerScript : MonoBehaviour
 	{
 
 
-		endGameText.text = "Press R to restart";
+		RestartText.text = "Press R to restart";
 		yield return new WaitForSecondsRealtime(2f); 
 	
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right oww

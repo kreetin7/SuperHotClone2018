@@ -11,12 +11,15 @@ public class NPCShoot : MonoBehaviour
 	public List<GameObject> npcvfx = new List<GameObject>();
 	private float npcShootTimer = 120f;
 	private GameObject effectToSpawn;
+
+	public ParticleSystem flare; 
 	
 	//Declarations
 
 	void Start () {
 		//You will assign the bullet prefab in the inspector
 		effectToSpawn = npcvfx[0];
+		//flare.enableEmission = false;
 	}
 
 
@@ -24,11 +27,13 @@ public class NPCShoot : MonoBehaviour
 	{
 		//NPC buffer for shooting countdown
 		npcShootTimer -= 1; 
+		Debug.Log(npcShootTimer);
 		//If the firepoint exists and the npc shooting cooldown is over
 		if (npcFirePoint != null && npcShootTimer < 0)
 		{
 			//Shooting buffer for the npcs
 			npcShootTimer = 120f;
+			
 			SpawnVFX();
 		}
 	}
@@ -43,6 +48,8 @@ public class NPCShoot : MonoBehaviour
 			//instantiate a bullet
 			vfx = Instantiate(effectToSpawn, npcFirePoint.transform.position,  this.transform.rotation);
 			Debug.Log("Bullet Spawned");
+			//flare.enableEmission = true; 
+			flare.Play();
 		}
 	}
 }

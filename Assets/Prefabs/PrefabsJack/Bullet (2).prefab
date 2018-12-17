@@ -310,4 +310,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 32
   deathParticles: {fileID: 0}
-  fireRate: 4
+  fireRate: 1

@@ -40,7 +40,7 @@ public class ProjectileMove : MonoBehaviour
 	{
 		pos = this.gameObject.transform.position;
 		
-		Debug.Log(col.gameObject.name);
+	
 		speed = 0;
 		if (col.gameObject.layer == 14)
 		{
