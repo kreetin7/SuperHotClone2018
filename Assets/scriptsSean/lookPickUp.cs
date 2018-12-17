@@ -31,7 +31,7 @@ public class lookPickUp : MonoBehaviour
 		{
 			if (pickUpRayHit.collider.tag == "gun")
 			{
-				if (Input.GetKey(KeyCode.E))
+				if (Input.GetMouseButton(0))
 				{
 					//Debug.Log("you can pick it up!");
 					itemHit = true;

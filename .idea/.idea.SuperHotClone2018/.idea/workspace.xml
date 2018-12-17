@@ -73,6 +73,7 @@
     <session id="937406577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -90,12 +91,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1568" />
+          <entry key="cs" value="1581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1568" />
+          <entry key="C#" value="1581" />
         </counts>
       </usages-collector>
     </session>
@@ -108,26 +109,26 @@
             <state relative-caret-position="179">
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <marker date="1544713904937" expanded="false" signature="6:78" ph="..." />
-                <marker date="1544713904937" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-                <marker date="1544713904937" expanded="true" signature="219:3607" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
-                <marker date="1544713904937" expanded="true" signature="490:500" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="554:3241" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
-                <marker date="1544713904937" expanded="true" signature="1703:1880" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
-                <marker date="1544713904937" expanded="true" signature="1930:2177" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="1938:2090" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
-                <marker date="1544713904937" expanded="true" signature="2229:2522" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="2465:2518" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1544713904937" expanded="true" signature="2575:2795" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="2738:2791" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1544713904937" expanded="true" signature="2848:3077" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="3020:3073" ph="/* Time.timeScale = 1; ... */" />
-                <marker date="1544713904937" expanded="true" signature="3112:3235" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="3263:3422" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="3505:3605" ph="{...}" />
-                <marker date="1544713904937" expanded="true" signature="3555:3602" ph="{...}" />
+                <marker date="1544718736872" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544718736872" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
+                <marker date="1544718736872" expanded="true" signature="219:3584" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
+                <marker date="1544718736872" expanded="true" signature="490:500" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="554:3218" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
+                <marker date="1544718736872" expanded="true" signature="1680:1857" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
+                <marker date="1544718736872" expanded="true" signature="1907:2154" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="1915:2067" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
+                <marker date="1544718736872" expanded="true" signature="2206:2499" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="2442:2495" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544718736872" expanded="true" signature="2552:2772" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="2715:2768" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544718736872" expanded="true" signature="2825:3054" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="2997:3050" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544718736872" expanded="true" signature="3089:3212" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="3240:3399" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="3482:3582" ph="{...}" />
+                <marker date="1544718736872" expanded="true" signature="3532:3579" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -229,20 +230,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="311">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding>
-                <marker date="1544713904929" expanded="false" signature="6:158" ph="..." />
-                <marker date="1544713904929" expanded="true" signature="160:298" ph="/* INTENT:  To manage the overall scene with restarting the scene on death and victory ... */" />
-                <marker date="1544713904929" expanded="true" signature="345:1795" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="710:908" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="716:870" ph="/* isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet. ... */" />
-                <marker date="1544713904929" expanded="true" signature="926:1452" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="967:1136" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="1205:1239" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="1267:1352" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="1380:1446" ph="{...}" />
-                <marker date="1544713904929" expanded="true" signature="1515:1789" ph="{...}" />
+                <marker date="1544718730117" expanded="false" signature="6:158" ph="..." />
+                <marker date="1544718730117" expanded="true" signature="160:298" ph="/* INTENT:  To manage the overall scene with restarting the scene on death and victory ... */" />
+                <marker date="1544718730117" expanded="true" signature="345:2055" ph="{...}" />
+                <marker date="1544718730117" expanded="true" signature="2046:2049" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -252,16 +246,16 @@
         <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
-                <marker date="1544718662934" expanded="false" signature="6:78" ph="..." />
-                <marker date="1544718662934" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-                <marker date="1544718662934" expanded="true" signature="317:1125" ph="{...}" />
-                <marker date="1544718662934" expanded="true" signature="494:501" ph="{...}" />
-                <marker date="1544718662934" expanded="true" signature="520:1120" ph="{...}" />
-                <marker date="1544718662934" expanded="true" signature="912:1117" ph="{...}" />
-                <marker date="1544718662934" expanded="true" signature="959:1076" ph="{...}" />
-                <marker date="1544718662934" expanded="true" signature="997:1071" ph="{...}" />
+                <marker date="1544718877805" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544718877805" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
+                <marker date="1544718877805" expanded="true" signature="317:1125" ph="{...}" />
+                <marker date="1544718877805" expanded="true" signature="494:501" ph="{...}" />
+                <marker date="1544718877805" expanded="true" signature="520:1120" ph="{...}" />
+                <marker date="1544718877805" expanded="true" signature="912:1117" ph="{...}" />
+                <marker date="1544718877805" expanded="true" signature="959:1076" ph="{...}" />
+                <marker date="1544718877805" expanded="true" signature="997:1071" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -316,7 +310,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1665" />
     <option name="height" value="1040" />
@@ -389,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23751000" />
+    <option name="totallyTimeSpent" value="24565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +396,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -500,20 +493,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="311">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding>
-            <marker date="1544713904929" expanded="false" signature="6:158" ph="..." />
-            <marker date="1544713904929" expanded="true" signature="160:298" ph="/* INTENT:  To manage the overall scene with restarting the scene on death and victory ... */" />
-            <marker date="1544713904929" expanded="true" signature="345:1795" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="710:908" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="716:870" ph="/* isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet. ... */" />
-            <marker date="1544713904929" expanded="true" signature="926:1452" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="967:1136" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="1205:1239" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="1267:1352" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="1380:1446" ph="{...}" />
-            <marker date="1544713904929" expanded="true" signature="1515:1789" ph="{...}" />
+            <marker date="1544718730117" expanded="false" signature="6:158" ph="..." />
+            <marker date="1544718730117" expanded="true" signature="160:298" ph="/* INTENT:  To manage the overall scene with restarting the scene on death and victory ... */" />
+            <marker date="1544718730117" expanded="true" signature="345:2055" ph="{...}" />
+            <marker date="1544718730117" expanded="true" signature="2046:2049" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -523,26 +509,26 @@
         <state relative-caret-position="179">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
-            <marker date="1544713904937" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544713904937" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
-            <marker date="1544713904937" expanded="true" signature="219:3607" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
-            <marker date="1544713904937" expanded="true" signature="490:500" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="554:3241" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
-            <marker date="1544713904937" expanded="true" signature="1703:1880" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
-            <marker date="1544713904937" expanded="true" signature="1930:2177" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="1938:2090" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
-            <marker date="1544713904937" expanded="true" signature="2229:2522" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="2465:2518" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1544713904937" expanded="true" signature="2575:2795" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="2738:2791" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1544713904937" expanded="true" signature="2848:3077" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="3020:3073" ph="/* Time.timeScale = 1; ... */" />
-            <marker date="1544713904937" expanded="true" signature="3112:3235" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="3263:3422" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="3505:3605" ph="{...}" />
-            <marker date="1544713904937" expanded="true" signature="3555:3602" ph="{...}" />
+            <marker date="1544718736872" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544718736872" expanded="true" signature="80:175" ph="/* USAGE: put this on a cube ... */" />
+            <marker date="1544718736872" expanded="true" signature="219:3584" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="410:474" ph="/* public CharacterController cc; ... */" />
+            <marker date="1544718736872" expanded="true" signature="490:500" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="554:3218" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="808:962" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
+            <marker date="1544718736872" expanded="true" signature="1680:1857" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
+            <marker date="1544718736872" expanded="true" signature="1907:2154" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="1915:2067" ph="/* moving the cube forwards on the Z axis because thats the orientation of Ryan's scene for some reason ... */" />
+            <marker date="1544718736872" expanded="true" signature="2206:2499" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="2442:2495" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544718736872" expanded="true" signature="2552:2772" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="2715:2768" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544718736872" expanded="true" signature="2825:3054" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="2997:3050" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544718736872" expanded="true" signature="3089:3212" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="3240:3399" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="3482:3582" ph="{...}" />
+            <marker date="1544718736872" expanded="true" signature="3532:3579" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -635,16 +621,16 @@
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
           <folding>
-            <marker date="1544718662934" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544718662934" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-            <marker date="1544718662934" expanded="true" signature="317:1125" ph="{...}" />
-            <marker date="1544718662934" expanded="true" signature="494:501" ph="{...}" />
-            <marker date="1544718662934" expanded="true" signature="520:1120" ph="{...}" />
-            <marker date="1544718662934" expanded="true" signature="912:1117" ph="{...}" />
-            <marker date="1544718662934" expanded="true" signature="959:1076" ph="{...}" />
-            <marker date="1544718662934" expanded="true" signature="997:1071" ph="{...}" />
+            <marker date="1544718877805" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544718877805" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
+            <marker date="1544718877805" expanded="true" signature="317:1125" ph="{...}" />
+            <marker date="1544718877805" expanded="true" signature="494:501" ph="{...}" />
+            <marker date="1544718877805" expanded="true" signature="520:1120" ph="{...}" />
+            <marker date="1544718877805" expanded="true" signature="912:1117" ph="{...}" />
+            <marker date="1544718877805" expanded="true" signature="959:1076" ph="{...}" />
+            <marker date="1544718877805" expanded="true" signature="997:1071" ph="{...}" />
           </folding>
         </state>
       </provider>
