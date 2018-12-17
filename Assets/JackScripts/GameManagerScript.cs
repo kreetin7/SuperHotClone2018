@@ -14,12 +14,13 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck2;
 	
 	public static bool isAlive = false;//Boolean determining if player is alive or not
-	public static bool npcisAlive = true;
+	public bool npcisAlive = true;
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
 	//ignore these for now
 	public Text endGameText;
+	public Text RestartText; 
 	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
 	//ignore these for now^
@@ -29,13 +30,25 @@ public class GameManagerScript : MonoBehaviour
 	{
 		endGameText.text = ""; 
 		isAlive = true; //Alive on start
+		
+
+		
 	}
 
 	void Update () {
-		
+
+		if (Input.GetKey(KeyCode.R))
+		{
+			SceneManager.LoadScene(1);
+		}
+		if (isAlive == true)
+		{
+			
+			//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
+		}
 		if (isAlive == false) //if you die
 		{
-			endGameText.text = "GAME"; // display GAME OVER on the screen
+			// display GAME OVER on the screen
 			StartCoroutine(GameOverText()); 
 		}
 		
@@ -45,12 +58,24 @@ public class GameManagerScript : MonoBehaviour
 			endTitleCounter -= 1f;
 		}
 
+		if (npcCheck1 == true)
+		{
+			StopCoroutine(SuperHotText());
+			
+		}
 		if (endTitleCounter < 0)
 		{
 			npcisAlive = false;
 			endTitleCounter = 10f;
 			endTitleCounter += 1;
 		}
+
+		if (npcisAlive == true)
+		{
+			StopCoroutine(SuperHotText());
+			Debug.Log("Stop Coroutine");
+		}
+	
 
 		if (npcisAlive == false)
 		{
@@ -63,11 +88,12 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
-		TimeManager.instance.TimeTarget = 1;
+	
+		//TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSecondsRealtime(2f);
 		endGameText.text = "HOT";
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSecondsRealtime(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
 	
 
@@ -76,13 +102,14 @@ public class GameManagerScript : MonoBehaviour
 	//Corountine for GAME OVER TEXT
 	IEnumerator GameOverText()
 	{
-		TimeManager.instance.TimeTarget = 1; 
-		yield return new WaitForSeconds(1f);
-		TimeManager.instance.TimeTarget = 1; 
-		endGameText.text = "OVER";
-		yield return new WaitForSeconds(1f);
-		SceneManager.LoadScene(1);// load Scene(1) in the build settings(Test Scene right now)
-		endGameText.text = ""; 
+
+
+		RestartText.text = "Press R to restart";
+		yield return new WaitForSecondsRealtime(2f); 
+	
+		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right oww
+		//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
+		
 	}
 	
 	

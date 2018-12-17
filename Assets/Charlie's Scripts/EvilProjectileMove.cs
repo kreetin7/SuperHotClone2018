@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileMove : MonoBehaviour
+public class EvilProjectileMove : MonoBehaviour
 {
 
 	//This script handles the movement of the projectile
@@ -40,7 +40,7 @@ public class ProjectileMove : MonoBehaviour
 	{
 		pos = this.gameObject.transform.position;
 		
-	
+		Debug.Log(col.gameObject.name);
 		speed = 0;
 		if (col.gameObject.layer == 14)
 		{
