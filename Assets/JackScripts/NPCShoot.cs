@@ -11,7 +11,7 @@ public class NPCShoot : MonoBehaviour
 	public List<GameObject> npcvfx = new List<GameObject>();
 	private float npcShootTimer = 120f;
 	private GameObject effectToSpawn;
-
+	public AudioScript AudioScript;
 	public ParticleSystem flare;
 	public ParticleSystem flare2; 
 	
@@ -36,7 +36,7 @@ public class NPCShoot : MonoBehaviour
 		{
 			//Shooting buffer for the npcs
 			npcShootTimer = 120f;
-			
+			AudioScript.playGunShot();
 			SpawnVFX();
 		}
 	}
