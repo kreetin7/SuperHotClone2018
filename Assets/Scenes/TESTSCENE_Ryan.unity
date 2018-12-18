@@ -1697,7 +1697,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 26c50148ce0fe48fd8ddca1b2aebce51, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 26c50148ce0fe48fd8ddca1b2aebce51, type: 3}
       propertyPath: m_LocalScale.x
@@ -2413,9 +2413,9 @@ MonoBehaviour:
   npcisAlive: 1
   Player: {fileID: 1612660865}
   endGameText: {fileID: 2106060474}
-  endGameText2: {fileID: 161266832}
-  RestartText: {fileID: 1905398764}
-  endGameAudio: {fileID: 24655252}
+  endGameText2: {fileID: 0}
+  RestartText: {fileID: 0}
+  endGameAudio: {fileID: 0}
 --- !u!4 &496446456
 Transform:
   m_ObjectHideFlags: 0
@@ -2769,20 +2769,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564738519}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &578347004
+--- !u!4 &578347004 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5fc240d63353fde43b565a32eb6b526c,
     type: 3}
   m_PrefabInternal: {fileID: 1364153485}
-  m_GameObject: {fileID: 915246652}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1364153486}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &578656740
 GameObject:
   m_ObjectHideFlags: 0
@@ -8780,7 +8771,7 @@ MonoBehaviour:
   npcFirePoint: {fileID: 543096285}
   npcvfx:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
-  npcShootTimer: 60
+  npcShootTimer: 120
   AudioScript: {fileID: 1192375372}
   flare: {fileID: 1753169257}
   flare2: {fileID: 1706085051}
@@ -8900,21 +8891,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 910829248}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &915246652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1364153485}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 578347004}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &930316233
 GameObject:
   m_ObjectHideFlags: 0
@@ -10659,7 +10635,7 @@ Transform:
   m_LocalPosition: {x: 0.311, y: -0.218, z: 1.252}
   m_LocalScale: {x: 0.22953872, y: 0.22953868, z: 0.22953863}
   m_Children:
-  - {fileID: 1364153486}
+  - {fileID: 578347004}
   m_Father: {fileID: 1781254526}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
@@ -11077,20 +11053,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fc240d63353fde43b565a32eb6b526c, type: 3}
   m_IsPrefabAsset: 0
---- !u!4 &1364153486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1364153485}
-  m_GameObject: {fileID: 1979549748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 578347004}
-  m_Father: {fileID: 1328817475}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1397128687
 GameObject:
   m_ObjectHideFlags: 0
@@ -12301,7 +12263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
   player: {fileID: 1612660865}
-  AudioScript: {fileID: 1149245562}
+  AudioScript: {fileID: 0}
   cameraScript: {fileID: 1781254527}
   SpawnProjectiles: {fileID: 1769355257}
   pickUpSpeed: 5
@@ -12530,8 +12492,8 @@ MonoBehaviour:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
   npcShootTimer: 120
   AudioScript: {fileID: 1192375372}
-  flare: {fileID: 1753169257}
-  flare2: {fileID: 1706085051}
+  flare: {fileID: 1706085051}
+  flare2: {fileID: 795229210}
 --- !u!114 &1520817063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22926,7 +22888,7 @@ MonoBehaviour:
   RotateToMouse: {fileID: 0}
   isHoldingGun: 0
   bulletsInGun: 5
-  AudioScript: {fileID: 1149245562}
+  AudioScript: {fileID: 0}
 --- !u!4 &1769355258
 Transform:
   m_ObjectHideFlags: 0
@@ -23034,7 +22996,7 @@ MonoBehaviour:
   player: {fileID: 1612660865}
   layerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   ItemHit: 0
   SeeGun: 0
 --- !u!1 &1787739401
@@ -23122,34 +23084,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1787739401}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1808744930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 305285576}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1808744931}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1808744931
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 305285576}
-  m_GameObject: {fileID: 1808744930}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1811931017
 GameObject:
   m_ObjectHideFlags: 0
@@ -23833,49 +23767,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cf85c85be57783488c9c00a572026fa, type: 3}
   m_IsPrefabAsset: 0
---- !u!1 &1979549748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 1364153485}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1364153486}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2013194818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 591000629}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2013194819}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2013194819
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 591000629}
-  m_GameObject: {fileID: 2013194818}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019446424
 GameObject:
   m_ObjectHideFlags: 0
@@ -23956,7 +23847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnProjectiles: {fileID: 1769355257}
-  LookPickUp: {fileID: 1781254527}
+  LookPickUp: {fileID: 0}
   anim: {fileID: 0}
 --- !u!212 &2019446429
 SpriteRenderer:
