@@ -20,6 +20,7 @@ public class GameManagerScript : MonoBehaviour
 	//The end of game text that displays "SUPER... HOT"
 	//ignore these for now
 	public Text endGameText;
+	public Text endGameText2;
 	public Text RestartText; 
 	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
@@ -92,7 +93,7 @@ public class GameManagerScript : MonoBehaviour
 		//TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
 		yield return new WaitForSecondsRealtime(2f);
-		endGameText.text = "HOT";
+		endGameText2.text = "HOT";
 		yield return new WaitForSecondsRealtime(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
 	
