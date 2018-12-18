@@ -311,4 +311,5 @@ MonoBehaviour:
   speed: 35
   deathParticles: {fileID: 1823365385152448, guid: b08fc8573321946c885793895b465ea8,
     type: 2}
+  AudioScript: {fileID: 0}
   fireRate: 3

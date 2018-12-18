@@ -13,30 +13,55 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject npcCheck1;
 	public GameObject npcCheck2;
 	
+<<<<<<< HEAD
 	public static bool isAlive;//Boolean determining if player is alive or not
 	public static bool npcisAlive;
+=======
+	public static bool isAlive = false;//Boolean determining if player is alive or not
+	public bool npcisAlive = true;
+>>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
+	//ignore these for now
 	public Text endGameText;
+	public Text endGameText2;
+	public Text RestartText; 
+	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
+	//ignore these for now^
 
+	public GameObject endGameAudio;
 	
 	
 	void Start()
 	{
-		// isAlive is a variable that is set to false as soon as the player is hit with a collider tagged as bullet.
-		// It is set to false in cubeProtoMiove.cs 
+		endGameText.text = ""; 
 		isAlive = true; //Alive on start
+<<<<<<< HEAD
 		npcisAlive = true;
+=======
+		
+
+		
+>>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
 	}
 
 	void Update () {
-		
+
+		if (Input.GetKey(KeyCode.R))
+		{
+			SceneManager.LoadScene(1);
+		}
+		if (isAlive == true)
+		{
+			
+			//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
+		}
 		if (isAlive == false) //if you die
 		{
-			endGameText.text = "GAME OVER"; // display GAME OVER on the screen
-			SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
+			// display GAME OVER on the screen
+			StartCoroutine(GameOverText()); 
 		}
 		
 		//if the npc dies
@@ -45,15 +70,29 @@ public class GameManagerScript : MonoBehaviour
 			endTitleCounter -= 1f;
 		}
 
+		if (npcCheck1 == true)
+		{
+			StopCoroutine(SuperHotText());
+			
+		}
 		if (endTitleCounter < 0)
 		{
 			npcisAlive = false;
 			endTitleCounter = 10f;
-			endTitleCounter = 1000f;
+			endTitleCounter += 1;
 		}
+
+		if (npcisAlive == true)
+		{
+			StopCoroutine(SuperHotText());
+			Debug.Log("Stop Coroutine");
+		}
+	
 
 		if (npcisAlive == false)
 		{
+			Debug.Log("This should be saying super hot super hot");
+			endGameAudio.SetActive(true);
 			StartCoroutine(SuperHotText()); // start the coroutine
 		}
 		
@@ -63,13 +102,33 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
+<<<<<<< HEAD
 		Debug.Log("Coroutine for end text");
 		TimeManager.instance.TimeTarget = 1;
+=======
+		
+		
+		//TimeManager.instance.TimeTarget = 1;
+>>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
 		endGameText.text = "SUPER";
-		yield return new WaitForSeconds(2f);
-		endGameText.text = "HOT";
-		yield return new WaitForSeconds(2f);
+		yield return new WaitForSecondsRealtime(2f);
+		endGameText2.text = "HOT";
+		yield return new WaitForSecondsRealtime(2f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
+	
+
+	}
+	
+	//Corountine for GAME OVER TEXT
+	IEnumerator GameOverText()
+	{
+
+
+		RestartText.text = "Press R to restart";
+		yield return new WaitForSecondsRealtime(5f); 
+	
+		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right oww
+		//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
 		
 	}
 	
