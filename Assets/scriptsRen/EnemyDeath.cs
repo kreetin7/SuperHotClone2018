@@ -15,7 +15,7 @@ public class EnemyDeath : MonoBehaviour
 	void Start ()
 	{
 		
-			animD = GetComponent<Animator>();
+		animD = GetComponent<Animator>();
 		animD.enabled = false; 
 	}
 
