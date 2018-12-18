@@ -42,8 +42,9 @@ public class EvilProjectileMove : MonoBehaviour
 		
 		Debug.Log(col.gameObject.name);
 		speed = 0;
-		if (col.gameObject.layer == 14)
+		if (col.gameObject.layer == 9)
 		{
+			
 			Instantiate(deathParticles, pos, Quaternion.identity);
 			Destroy(this.gameObject);
 			
