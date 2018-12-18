@@ -9,7 +9,7 @@ public class NPCShoot : MonoBehaviour
 	//Declarations
 	public GameObject npcFirePoint;
 	public List<GameObject> npcvfx = new List<GameObject>();
-	private float npcShootTimer = 120f;
+	public float npcShootTimer = 120f;
 	private GameObject effectToSpawn;
 	public AudioScript AudioScript;
 	public ParticleSystem flare;

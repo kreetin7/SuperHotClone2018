@@ -8780,6 +8780,7 @@ MonoBehaviour:
   npcFirePoint: {fileID: 543096285}
   npcvfx:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
+  npcShootTimer: 60
   AudioScript: {fileID: 1192375372}
   flare: {fileID: 1753169257}
   flare2: {fileID: 1706085051}
@@ -12527,6 +12528,7 @@ MonoBehaviour:
   npcFirePoint: {fileID: 757045896}
   npcvfx:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
+  npcShootTimer: 120
   AudioScript: {fileID: 1192375372}
   flare: {fileID: 1753169257}
   flare2: {fileID: 1706085051}
