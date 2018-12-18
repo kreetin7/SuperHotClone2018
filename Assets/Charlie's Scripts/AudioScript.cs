@@ -20,22 +20,22 @@ public class AudioScript : MonoBehaviour {
 		
 	}
 
-	void playGunShot()
+	public void playGunShot()
 	{
 		source.PlayOneShot(gunShot, 0.5f);
 	}
 	
-	void playGunHit()
+	public void playGunHit()
 	{
 		source.PlayOneShot(gunHit, 0.5f);
 	}
 	
-	void playGunPickUp()
+	public void playGunPickUp()
 	{
 		source.PlayOneShot(gunPickUp, 0.5f);
 	}
 	
-	void playSUPERHOT()
+	public void playSUPERHOT()
 	{
 		source.PlayOneShot(SUPERHOT, 0.5f);
 	}

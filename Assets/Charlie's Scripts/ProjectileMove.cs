@@ -11,12 +11,19 @@ public class ProjectileMove : MonoBehaviour
 	public float speed;
 	public GameObject deathParticles;
 	private Vector3 pos;
+	private AudioScript AS;
+	private GameObject evilAudio;
 
 	//firing rate of prpjectiles (not relevant)
 	public float fireRate;
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
+	evilAudio = GameObject.Find("evilAudio");
+	AS = (AudioScript) evilAudio.GetComponent(typeof(AudioScript));
+	//AS = GameObject.FindObjectOfType(typeof(AudioScript)) as AudioScript;
+
 	}
 	
 	// Update is called once per frame
@@ -44,6 +51,7 @@ public class ProjectileMove : MonoBehaviour
 		speed = 0;
 		if (col.gameObject.layer == 14)
 		{
+		    AS.playGunHit();
 			Instantiate(deathParticles, pos, Quaternion.identity);
 			Destroy(this.gameObject);
 			
