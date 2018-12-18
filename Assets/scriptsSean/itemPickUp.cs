@@ -53,7 +53,7 @@ public class itemPickUp : MonoBehaviour {
 	{
 		if (itemState == 1)
 		{
-			if (cameraScript.itemHit == true)
+			if (cameraScript.ItemHit == true)
 			{
 				itemState = 2;
 			}
@@ -65,10 +65,15 @@ public class itemPickUp : MonoBehaviour {
 			//destination =  new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 			//transform.position = Vector3.MoveTowards(transform.position, destination, pickUpSpeed * Time.deltaTime);
 
+			/*Rb.useGravity = false;
+			Vector3 destination = (player.transform.position - transform.position).normalized;
+			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);
+			Debug.DrawLine(transform.position, destination, Color.magenta);
+			transform.LookAt(destination);*/
 		
 			Rb.useGravity = false; // turn gravity off
 			Vector3 destination = (player.transform.position - transform.position).normalized; //initialize item's new destination
-			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.deltaTime);	//make the gun's rigid body move towards destination
+			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);	//make the gun's rigid body move towards destination
 			Debug.DrawLine(transform.position, destination, Color.magenta);//debug line to see gun's direction
 			transform.LookAt(destination);//make gun look towards the player
 

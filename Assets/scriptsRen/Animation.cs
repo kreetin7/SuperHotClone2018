@@ -5,7 +5,8 @@ using UnityEngine;
 public class Animation : MonoBehaviour
 {
 
-	public SpawnProjectiles SpawnProjectiles; 
+	public SpawnProjectiles SpawnProjectiles;
+	public lookPickUp LookPickUp; 
 	public Animator anim; 
 	// Use this for initialization
 	void Start ()
@@ -17,17 +18,30 @@ public class Animation : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (Input.GetMouseButtonDown(0) ) 
+		if (LookPickUp.SeeGun == true)
 		{
-			if (SpawnProjectiles.isHoldingGun == true)
-			{
-				anim.SetBool("Shoot", true);
-			}
-
+			anim.SetBool("canseegun", true);
 		}
+
 		else
 		{
-			anim.SetBool("Shoot", false);
+			anim.SetBool("canseegun", false);
 		}
+
+		if (SpawnProjectiles.isHoldingGun == true)
+		{
+			anim.SetBool("hasgun", true);
+			if (Input.GetMouseButtonDown(0) ) 
+			{
+			anim.SetBool("Shoot", true);
+			anim.SetBool("hasgun", false);
+			}
+			else
+			{
+				anim.SetBool("Shoot", false);
+			}
+		}
+		
+		
 	}
 }

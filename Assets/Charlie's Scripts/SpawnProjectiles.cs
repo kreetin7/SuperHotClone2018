@@ -15,6 +15,7 @@ public class SpawnProjectiles : MonoBehaviour {
 	//private GameObject effectToSpawn; //old code
 	private float timeToFire = 0;
 
+	public ParticleSystem muzzleFlash; 
 	
 	// Use this for initialization
 	void Start ()
@@ -36,6 +37,7 @@ public class SpawnProjectiles : MonoBehaviour {
 					timeToFire = Time.time + 1 / bullet.GetComponent<ProjectileMove>().fireRate; //used to be timeToFire = Time.time + 1 / effectToSpawn.GetComponent<ProjectileMove>().fireRate;
 					SpawnVFX();
 					bulletsInGun = bulletsInGun - 1;
+					
 					
 				}
 			}
@@ -62,6 +64,8 @@ public class SpawnProjectiles : MonoBehaviour {
 		//if the firepoint exists
 		if (firePoint != null)
 		{
+			muzzleFlash.Play();
+
 				//instantiate a bullet
 				newBullet = Instantiate(bullet, firePoint.transform.position, Camera.main.transform.rotation); //first value passed in used to be effectToSpawn
 				if (RotateToMouse != null)
