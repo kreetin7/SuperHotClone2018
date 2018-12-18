@@ -105,7 +105,7 @@ public class GameManagerScript : MonoBehaviour
 
 
 		RestartText.text = "Press R to restart";
-		yield return new WaitForSecondsRealtime(2f); 
+		yield return new WaitForSecondsRealtime(5f); 
 	
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right oww
 		//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
