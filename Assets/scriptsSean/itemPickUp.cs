@@ -11,7 +11,9 @@ public class itemPickUp : MonoBehaviour {
 	public Vector3 destination;
 	//player reference for the destination vector3 to be assigned to
 	public GameObject player;
-	
+
+	//This is a reference to the audioscript
+	public AudioScript AudioScript;
 	
 	//item's rigid body
 	private Rigidbody Rb;
@@ -127,6 +129,7 @@ public class itemPickUp : MonoBehaviour {
 	{
 		if (itemState == 2 && col.gameObject.tag == "Player") //when gun hits the player...
 		{
+			AudioScript.playGunPickUp();
 			itemState = 3;//gun goes into hold state
 		}
 
