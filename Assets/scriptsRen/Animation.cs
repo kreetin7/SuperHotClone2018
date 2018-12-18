@@ -23,6 +23,11 @@ public class Animation : MonoBehaviour
 			anim.SetBool("canseegun", true);
 		}
 
+		else
+		{
+			anim.SetBool("canseegun", false);
+		}
+
 		if (SpawnProjectiles.isHoldingGun == true)
 		{
 			anim.SetBool("hasgun", true);

@@ -12,7 +12,8 @@ public class NPCShoot : MonoBehaviour
 	private float npcShootTimer = 120f;
 	private GameObject effectToSpawn;
 
-	public ParticleSystem flare; 
+	public ParticleSystem flare;
+	public ParticleSystem flare2; 
 	
 	//Declarations
 
@@ -20,6 +21,8 @@ public class NPCShoot : MonoBehaviour
 		//You will assign the bullet prefab in the inspector
 		effectToSpawn = npcvfx[0];
 		//flare.enableEmission = false;
+		flare.Stop();
+		flare2.Stop(); 
 	}
 
 
@@ -50,6 +53,7 @@ public class NPCShoot : MonoBehaviour
 			Debug.Log("Bullet Spawned");
 			//flare.enableEmission = true; 
 			flare.Play();
+			flare2.Play();
 		}
 	}
 }
