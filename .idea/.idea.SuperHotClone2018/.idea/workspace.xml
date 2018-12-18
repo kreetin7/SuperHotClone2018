@@ -12,15 +12,16 @@
     <session id="1225514986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4248" />
+          <entry key="cs" value="5192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4248" />
+          <entry key="C#" value="5192" />
         </counts>
       </usages-collector>
     </session>
@@ -108,8 +109,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="465">
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <marker date="1544992038945" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544992038945" expanded="true" signature="80:244" ph="/* USAGE: put this on a capsule ... */" />
+                <marker date="1544992038945" expanded="true" signature="288:3643" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="479:543" ph="/* public CharacterController cc; ... */" />
+                <marker date="1544992038945" expanded="true" signature="559:569" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="623:3277" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="893:1047" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
+                <marker date="1544992038945" expanded="true" signature="1788:1965" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
+                <marker date="1544992038945" expanded="true" signature="2015:2213" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="2265:2558" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="2501:2554" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544992038945" expanded="true" signature="2611:2831" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="2774:2827" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544992038945" expanded="true" signature="2884:3113" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="3056:3109" ph="/* Time.timeScale = 1; ... */" />
+                <marker date="1544992038945" expanded="true" signature="3148:3271" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="3299:3458" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="3541:3641" ph="{...}" />
+                <marker date="1544992038945" expanded="true" signature="3591:3638" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,27 +139,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="269">
+              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
               <folding>
-                <marker date="1544835561018" expanded="false" signature="6:78" ph="..." />
-                <marker date="1544835561018" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-                <marker date="1544835561018" expanded="true" signature="261:4594" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="718:924" ph="/* state int ... */" />
-                <marker date="1544835561018" expanded="true" signature="1102:1261" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1316:1320" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1349:4007" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1374:1448" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1415:1444" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1471:2261" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="1479:1778" ph="/* old method of transforming towards player without using rigidbodies ... */" />
-                <marker date="1544835561018" expanded="true" signature="2284:3230" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="3338:3394" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="3417:4004" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="4111:4587" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="4200:4252" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="4348:4393" ph="{...}" />
-                <marker date="1544835561018" expanded="true" signature="4475:4584" ph="{...}" />
+                <marker date="1545019041960" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545019041960" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
+                <marker date="1545019041960" expanded="true" signature="261:4596" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="718:924" ph="/* state int ... */" />
+                <marker date="1545019041960" expanded="true" signature="1102:1261" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1316:1320" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1349:4009" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1374:1448" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1415:1444" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1471:2263" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="1479:1778" ph="/* old method of transforming towards player without using rigidbodies ... */" />
+                <marker date="1545019041960" expanded="true" signature="2286:3232" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="3340:3396" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="3419:4006" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="4113:4589" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="4202:4254" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="4350:4395" ph="{...}" />
+                <marker date="1545019041960" expanded="true" signature="4477:4586" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,16 +168,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/handRaise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="780">
+              <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
               <folding>
-                <marker date="1544835024842" expanded="false" signature="6:78" ph="..." />
-                <marker date="1544835024842" expanded="true" signature="80:271" ph="/* usage: put this on the hand model is attatched to GunPos and will come into view in the camera when gun is pic ... */" />
-                <marker date="1544835024842" expanded="true" signature="312:1021" ph="{...}" />
-                <marker date="1544835024842" expanded="true" signature="571:577" ph="{...}" />
-                <marker date="1544835024842" expanded="true" signature="632:1017" ph="{...}" />
-                <marker date="1544835024842" expanded="true" signature="741:823" ph="{...}" />
-                <marker date="1544835024842" expanded="true" signature="885:1012" ph="{...}" />
+                <marker date="1545019359148" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545019359148" expanded="true" signature="80:271" ph="/* usage: put this on the hand model is attatched to GunPos and will come into view in the camera when gun is pic ... */" />
+                <marker date="1545019359148" expanded="true" signature="312:1980" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="704:710" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="765:1976" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="874:1035" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="1162:1245" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="1384:1561" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="1647:1774" ph="{...}" />
+                <marker date="1545019359148" expanded="true" signature="1844:1971" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -208,7 +233,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="470">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <marker date="1543786244701" expanded="false" signature="6:94" ph="..." />
@@ -227,7 +252,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/senior_capstone/Derelict_anim/Assets/Scripts/Animation Scripts/Player1Animation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="540">
               <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <marker date="1544733702875" expanded="false" signature="6:78" ph="..." />
@@ -246,8 +271,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="1185">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -255,8 +280,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -296,8 +321,8 @@
         <option value="$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs" />
         <option value="$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs" />
         <option value="D:/senior_capstone/Derelict_anim/Assets/Scripts/Animation Scripts/Player1Animation.cs" />
-        <option value="$PROJECT_DIR$/Assets/scriptsSean/handRaise.cs" />
         <option value="$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/scriptsSean/handRaise.cs" />
       </list>
     </option>
   </component>
@@ -318,11 +343,11 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -379,11 +404,12 @@
       <workItem from="1544541325722" duration="5399000" />
       <workItem from="1544716980414" duration="4537000" />
       <workItem from="1544827633202" duration="6190000" />
+      <workItem from="1544992688719" duration="7694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38154000" />
+    <option name="totallyTimeSpent" value="45848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +424,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35436243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35973155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,41 +511,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IntroToDev_06_BetterMouseAndTexture/Assets/scripts/BetterMouseLook.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state>
           <folding>
-            <marker date="1543786244701" expanded="false" signature="6:94" ph="..." />
-            <marker date="1543786244701" expanded="true" signature="96:170" ph="/* USAGE: Put this on a NPC ... */" />
-            <marker date="1543786244701" expanded="true" signature="211:1453" ph="{...}" />
-            <marker date="1543786244701" expanded="true" signature="480:1451" ph="{...}" />
-            <marker date="1543786244701" expanded="true" signature="1158:1392" ph="{...}" />
-            <marker date="1543786244701" expanded="true" signature="1203:1387" ph="{...}" />
-            <marker date="1543786244701" expanded="true" signature="1280:1382" ph="{...}" />
-            <marker date="1543786244701" expanded="true" signature="1399:1447" ph="{...}" />
+            <marker date="1543786244841" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543786244841" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
+            <marker date="1543786244841" expanded="true" signature="317:1125" ph="{...}" />
+            <marker date="1543786244841" expanded="true" signature="494:501" ph="{...}" />
+            <marker date="1543786244841" expanded="true" signature="520:1120" ph="{...}" />
+            <marker date="1543786244841" expanded="true" signature="912:1117" ph="{...}" />
+            <marker date="1543786244841" expanded="true" signature="959:1076" ph="{...}" />
+            <marker date="1543786244841" expanded="true" signature="997:1071" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -549,7 +553,7 @@
     </entry>
     <entry file="file://D:/senior_capstone/Derelict_anim/Assets/Scripts/Animation Scripts/Player1Animation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="540">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <marker date="1544733702875" expanded="false" signature="6:78" ph="..." />
@@ -564,61 +568,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/lookPickUp.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/JackScripts/GameManagerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1185">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/TimeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RyanScript/NPCBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <marker date="1543786244841" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543786244841" expanded="true" signature="80:276" ph="/* usage: put this on the mainCamera that should be a child of player gameObject ... */" />
-            <marker date="1543786244841" expanded="true" signature="317:1125" ph="{...}" />
-            <marker date="1543786244841" expanded="true" signature="494:501" ph="{...}" />
-            <marker date="1543786244841" expanded="true" signature="520:1120" ph="{...}" />
-            <marker date="1543786244841" expanded="true" signature="912:1117" ph="{...}" />
-            <marker date="1543786244841" expanded="true" signature="959:1076" ph="{...}" />
-            <marker date="1543786244841" expanded="true" signature="997:1071" ph="{...}" />
+            <marker date="1543786244701" expanded="false" signature="6:94" ph="..." />
+            <marker date="1543786244701" expanded="true" signature="96:170" ph="/* USAGE: Put this on a NPC ... */" />
+            <marker date="1543786244701" expanded="true" signature="211:1453" ph="{...}" />
+            <marker date="1543786244701" expanded="true" signature="480:1451" ph="{...}" />
+            <marker date="1543786244701" expanded="true" signature="1158:1392" ph="{...}" />
+            <marker date="1543786244701" expanded="true" signature="1203:1387" ph="{...}" />
+            <marker date="1543786244701" expanded="true" signature="1280:1382" ph="{...}" />
+            <marker date="1543786244701" expanded="true" signature="1399:1447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scriptsRen/cubeProtoMiove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1544992038945" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544992038945" expanded="true" signature="80:244" ph="/* USAGE: put this on a capsule ... */" />
+            <marker date="1544992038945" expanded="true" signature="288:3643" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="479:543" ph="/* public CharacterController cc; ... */" />
+            <marker date="1544992038945" expanded="true" signature="559:569" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="623:3277" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="893:1047" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); //camera rotation ... */" />
+            <marker date="1544992038945" expanded="true" signature="1788:1965" ph="/* Vector3 moveDirectionForward = transform.forward;//new Vector3(Input.GetAxis(&quot;Horizontal&quot;), 0.0f, Input.GetAxi ... */" />
+            <marker date="1544992038945" expanded="true" signature="2015:2213" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="2265:2558" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="2501:2554" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544992038945" expanded="true" signature="2611:2831" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="2774:2827" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544992038945" expanded="true" signature="2884:3113" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="3056:3109" ph="/* Time.timeScale = 1; ... */" />
+            <marker date="1544992038945" expanded="true" signature="3148:3271" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="3299:3458" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="3541:3641" ph="{...}" />
+            <marker date="1544992038945" expanded="true" signature="3591:3638" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/itemPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="269">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
           <folding>
-            <marker date="1544835561018" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544835561018" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
-            <marker date="1544835561018" expanded="true" signature="261:4594" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="718:924" ph="/* state int ... */" />
-            <marker date="1544835561018" expanded="true" signature="1102:1261" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1316:1320" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1349:4007" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1374:1448" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1415:1444" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1471:2261" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="1479:1778" ph="/* old method of transforming towards player without using rigidbodies ... */" />
-            <marker date="1544835561018" expanded="true" signature="2284:3230" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="3338:3394" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="3417:4004" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="4111:4587" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="4200:4252" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="4348:4393" ph="{...}" />
-            <marker date="1544835561018" expanded="true" signature="4475:4584" ph="{...}" />
+            <marker date="1545019041960" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545019041960" expanded="true" signature="80:219" ph="/* usage: put this on any pick up objects ... */" />
+            <marker date="1545019041960" expanded="true" signature="261:4596" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="718:924" ph="/* state int ... */" />
+            <marker date="1545019041960" expanded="true" signature="1102:1261" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1316:1320" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1349:4009" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1374:1448" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1415:1444" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1471:2263" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="1479:1778" ph="/* old method of transforming towards player without using rigidbodies ... */" />
+            <marker date="1545019041960" expanded="true" signature="2286:3232" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="3340:3396" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="3419:4006" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="4113:4589" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="4202:4254" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="4350:4395" ph="{...}" />
+            <marker date="1545019041960" expanded="true" signature="4477:4586" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scriptsSean/handRaise.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="780">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
           <folding>
-            <marker date="1544835024842" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544835024842" expanded="true" signature="80:271" ph="/* usage: put this on the hand model is attatched to GunPos and will come into view in the camera when gun is pic ... */" />
-            <marker date="1544835024842" expanded="true" signature="312:1021" ph="{...}" />
-            <marker date="1544835024842" expanded="true" signature="571:577" ph="{...}" />
-            <marker date="1544835024842" expanded="true" signature="632:1017" ph="{...}" />
-            <marker date="1544835024842" expanded="true" signature="741:823" ph="{...}" />
-            <marker date="1544835024842" expanded="true" signature="885:1012" ph="{...}" />
+            <marker date="1545019359148" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545019359148" expanded="true" signature="80:271" ph="/* usage: put this on the hand model is attatched to GunPos and will come into view in the camera when gun is pic ... */" />
+            <marker date="1545019359148" expanded="true" signature="312:1980" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="704:710" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="765:1976" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="874:1035" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="1162:1245" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="1384:1561" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="1647:1774" ph="{...}" />
+            <marker date="1545019359148" expanded="true" signature="1844:1971" ph="{...}" />
           </folding>
         </state>
       </provider>
