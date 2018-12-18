@@ -10,9 +10,13 @@ public class lookPickUp : MonoBehaviour
 
 	public GameObject player;
 	//length of item pick up raycast
-	float maxRaycastDist = 5f;
+	float maxRaycastDist = 3f;
+
+	public LayerMask layerMask; 
 	//bool to see if raycast hit a pick up item
-	public bool itemHit;
+	public bool ItemHit;
+
+	public bool SeeGun = false; 
 	
 	void Start () {
 		
@@ -27,18 +31,29 @@ public class lookPickUp : MonoBehaviour
 		
 		RaycastHit pickUpRayHit = new RaycastHit();	
 		//if raycast hits something...
-		if (Physics.Raycast(pickUpRay, out pickUpRayHit, maxRaycastDist))
+		
+		
+		
+		if (Physics.SphereCast(pickUpRay.origin, 3f, pickUpRay.direction,  out pickUpRayHit, maxRaycastDist, layerMask, QueryTriggerInteraction.UseGlobal))
 		{
 			if (pickUpRayHit.collider.tag == "gun")
+
+				
 			{
+				SeeGun = true;
 				if (Input.GetMouseButton(0))
 				{
+					SeeGun = false; 
 					//Debug.Log("you can pick it up!");
-					itemHit = true;
+					ItemHit = true;
 				}
-			} else {
-				itemHit = false;
+				
+				else {
+					 
+					ItemHit= false;
+				}
 			}
+			
 			
 		}
 	}
