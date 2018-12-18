@@ -2214,7 +2214,7 @@ MonoBehaviour:
   npcisAlive: 1
   Player: {fileID: 1612660865}
   endGameText: {fileID: 2106060474}
-  RestartText: {fileID: 1905398764}
+  RestartText: {fileID: 0}
 --- !u!4 &496446456
 Transform:
   m_ObjectHideFlags: 0
@@ -3892,7 +3892,7 @@ MonoBehaviour:
   npcFirePoint: {fileID: 543096285}
   npcvfx:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
-  flare: {fileID: 1753169257}
+  flare: {fileID: 0}
 --- !u!114 &874124757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7318,7 +7318,7 @@ MonoBehaviour:
   npcFirePoint: {fileID: 757045896}
   npcvfx:
   - {fileID: 1379484994039198, guid: c5284b1684cbe436382736bd7385cda1, type: 2}
-  flare: {fileID: 1753169257}
+  flare: {fileID: 0}
 --- !u!114 &1520817063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7603,6 +7603,8 @@ GameObject:
   - component: {fileID: 1612660871}
   - component: {fileID: 1612660870}
   - component: {fileID: 1612660872}
+  - component: {fileID: 1612660874}
+  - component: {fileID: 1612660873}
   m_Layer: 9
   m_Name: NewPlayer
   m_TagString: Player
@@ -7671,7 +7673,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612660865}
-  m_LocalRotation: {x: -0, y: 0.013714354, z: -0, w: 0.99990594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -22.54, y: 86.62, z: -71.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7679,7 +7681,7 @@ Transform:
   - {fileID: 292401876}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 1.572, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1612660870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7707,9 +7709,9 @@ MonoBehaviour:
   player: {fileID: 1612660865}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4096
   ItemHit: 0
-  SeeGun: 0
+  SeeGun: 1
 --- !u!54 &1612660872
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7725,6 +7727,36 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1612660873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612660865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b59fb38b3daf34f8e891056335e31a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1612660874}
+--- !u!95 &1612660874
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612660865}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8057b626705d68e4c850f3981f257736, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1628824387
 GameObject:
   m_ObjectHideFlags: 0
@@ -13110,7 +13142,7 @@ MonoBehaviour:
   player: {fileID: 1612660865}
   layerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   ItemHit: 0
   SeeGun: 0
 --- !u!1 &1787739401

@@ -41,7 +41,7 @@ public class lookPickUp : MonoBehaviour
 				
 			{
 				SeeGun = true;
-				if (Input.GetKey(KeyCode.E))
+				if (Input.GetMouseButton(0))
 				{
 					SeeGun = false; 
 					//Debug.Log("you can pick it up!");
