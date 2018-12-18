@@ -25,6 +25,8 @@ public class GameManagerScript : MonoBehaviour
 	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
 	//ignore these for now^
+
+	public GameObject endGameAudio;
 	
 	
 	void Start()
@@ -80,6 +82,8 @@ public class GameManagerScript : MonoBehaviour
 
 		if (npcisAlive == false)
 		{
+			Debug.Log("This should be saying super hot super hot");
+			endGameAudio.SetActive(true);
 			StartCoroutine(SuperHotText()); // start the coroutine
 		}
 		
@@ -89,7 +93,8 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
-	
+		
+		
 		//TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
 		yield return new WaitForSecondsRealtime(2f);

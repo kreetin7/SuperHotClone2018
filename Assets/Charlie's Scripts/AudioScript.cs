@@ -37,6 +37,6 @@ public class AudioScript : MonoBehaviour {
 	
 	public void playSUPERHOT()
 	{
-		source.PlayOneShot(SUPERHOT, 0.5f);
+		source.Play(); //(SUPERHOT, 0.5f);
 	}
 }
