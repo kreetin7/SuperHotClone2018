@@ -12,14 +12,10 @@ public class GameManagerScript : MonoBehaviour
 
 	public GameObject npcCheck1;
 	public GameObject npcCheck2;
-	
-<<<<<<< HEAD
-	public static bool isAlive;//Boolean determining if player is alive or not
-	public static bool npcisAlive;
-=======
+
 	public static bool isAlive = false;//Boolean determining if player is alive or not
 	public bool npcisAlive = true;
->>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
+
 	public GameObject Player; //The player
 	
 	//The end of game text that displays "SUPER... HOT"
@@ -38,13 +34,9 @@ public class GameManagerScript : MonoBehaviour
 	{
 		endGameText.text = ""; 
 		isAlive = true; //Alive on start
-<<<<<<< HEAD
-		npcisAlive = true;
-=======
-		
 
-		
->>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
+		npcisAlive = true;
+
 	}
 
 	void Update () {
@@ -102,14 +94,12 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
-<<<<<<< HEAD
+
 		Debug.Log("Coroutine for end text");
 		TimeManager.instance.TimeTarget = 1;
-=======
-		
-		
+
 		//TimeManager.instance.TimeTarget = 1;
->>>>>>> 9483a905518bd4dc9fc3e85bfc7caa18af7017df
+
 		endGameText.text = "SUPER";
 		yield return new WaitForSecondsRealtime(2f);
 		endGameText2.text = "HOT";
