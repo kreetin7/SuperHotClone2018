@@ -46,14 +46,7 @@ public class NPCBehavior : MonoBehaviour
 				Debug.Log("NPC Sees Player");
 
 
-				/*if (timeUntilShoot <= 0f)
-				{
-					Debug.Log(timeUntilShoot);
-
-					//timeUntilShoot = 2f;
-
-					transform.Rotate(0f, 0f, 0f);
-				}*/
+				
 			}
 
 		}

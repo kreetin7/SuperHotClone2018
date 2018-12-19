@@ -75,7 +75,7 @@ public class itemPickUp : MonoBehaviour {
 		
 			Rb.useGravity = false; // turn gravity off
 			Vector3 destination = (player.transform.position - transform.position).normalized; //initialize item's new destination
-			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);	//make the gun's rigid body move towards destination
+			Rb.MovePosition(transform.position + destination * pickUpSpeed * Time.unscaledDeltaTime);	//make the gun's rigid body move towards destination, uses unscaledDeltaTime so it isn't affected by timeScale
 			Debug.DrawLine(transform.position, destination, Color.magenta);//debug line to see gun's direction
 			transform.LookAt(destination);//make gun look towards the player
 

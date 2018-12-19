@@ -4,6 +4,7 @@ using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Image = UnityEngine.Experimental.UIElements.Image;
 
 //INTENT:  To manage the overall scene with restarting the scene on death and victory
 //USAGE:  Attatch to empty game object "GameManager"
@@ -21,7 +22,8 @@ public class GameManagerScript : MonoBehaviour
 	//ignore these for now
 	public Text endGameText;
 	public Text endGameText2;
-	public Text RestartText; 
+	public Text RestartText;
+	
 	private bool isGameOver = false;
 	private float endTitleCounter = 10f;
 	//ignore these for now^
@@ -42,16 +44,16 @@ public class GameManagerScript : MonoBehaviour
 
 		if (Input.GetKey(KeyCode.R))
 		{
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(0);
 		}
 		if (isAlive == true)
 		{
 			
-			//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
+			
 		}
 		if (isAlive == false) //if you die
 		{
-			// display GAME OVER on the screen
+			// start the death coroutine
 			StartCoroutine(GameOverText()); 
 		}
 		
@@ -93,14 +95,25 @@ public class GameManagerScript : MonoBehaviour
 
 	IEnumerator SuperHotText()
 	{
+
 		
 		
-		//TimeManager.instance.TimeTarget = 1;
+	
 		endGameText.text = "SUPER";
-		yield return new WaitForSecondsRealtime(2f);
+		yield return new WaitForSecondsRealtime(1f); //using WaitForSecondsRealTime so that it isn't slowed down by TimeScale
+		endGameText.enabled = false;
 		endGameText2.text = "HOT";
-		yield return new WaitForSecondsRealtime(2f);
-		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
+		yield return new WaitForSecondsRealtime(1f);
+		endGameText.enabled = true;
+		endGameText2.enabled = false; 
+		endGameText.text = "SUPER";
+		yield return new WaitForSecondsRealtime(1f);
+		endGameText.enabled = false;
+		endGameText2.enabled = true;
+		endGameText.text= ""; 
+		endGameText2.text = "HOT";
+		yield return new WaitForSecondsRealtime(.5f);
+		SceneManager.LoadScene(0); // reload scene
 	
 
 	}
@@ -111,10 +124,10 @@ public class GameManagerScript : MonoBehaviour
 
 
 		RestartText.text = "Press R to restart";
-		yield return new WaitForSecondsRealtime(5f); 
+		yield return new WaitForSecondsRealtime(5f); //using WaitForSecondsRealTime so that it isn't slowed down by TimeScale
 	
-		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right oww
-		//Time.timeScale = Mathf.MoveTowards(Time.timeScale, TimeManager.instance.TimeTarget, TimeManager.instance.TimeSpeed);
+		SceneManager.LoadScene(0); // load Scene(1) in the build settings(Test Scene right oww
+		
 		
 	}
 	

@@ -9,7 +9,7 @@ public class NPCShoot : MonoBehaviour
 	//Declarations
 	public GameObject npcFirePoint;
 	public List<GameObject> npcvfx = new List<GameObject>();
-	public float npcShootTimer = 120f;
+	public float npcShootTimer = 0f;
 	private GameObject effectToSpawn;
 	public AudioScript AudioScript;
 	public ParticleSystem flare;
@@ -22,20 +22,22 @@ public class NPCShoot : MonoBehaviour
 		effectToSpawn = npcvfx[0];
 		//flare.enableEmission = false;
 		flare.Stop();
-		flare2.Stop(); 
+		npcShootTimer = 0f; 
+
 	}
 
 
 	void Update()
 	{
 		//NPC buffer for shooting countdown
-		npcShootTimer -= 1; 
+		npcShootTimer -= 1 * Time.deltaTime; //counts down by 1 multiplied by deltaTime so that it's affected by TimeScale
+		
 		Debug.Log(npcShootTimer);
 		//If the firepoint exists and the npc shooting cooldown is over
-		if (npcFirePoint != null && npcShootTimer < 0)
+		if (npcFirePoint != null && npcShootTimer <= 0.0f)
 		{
 			//Shooting buffer for the npcs
-			npcShootTimer = 120f;
+			npcShootTimer = .75f;
 			AudioScript.playGunShot();
 			SpawnVFX();
 		}
@@ -51,9 +53,9 @@ public class NPCShoot : MonoBehaviour
 			//instantiate a bullet
 			vfx = Instantiate(effectToSpawn, npcFirePoint.transform.position,  this.transform.rotation);
 			Debug.Log("Bullet Spawned");
-			//flare.enableEmission = true; 
+		
 			flare.Play();
-			flare2.Play();
+		
 		}
 	}
 }
