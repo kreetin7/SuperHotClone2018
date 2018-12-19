@@ -30,7 +30,7 @@ public class NPCShoot : MonoBehaviour
 	void Update()
 	{
 		//NPC buffer for shooting countdown
-		npcShootTimer -= 1 * Time.deltaTime; 
+		npcShootTimer -= 1 * Time.deltaTime; //counts down by 1 multiplied by deltaTime so that it's affected by TimeScale
 		
 		Debug.Log(npcShootTimer);
 		//If the firepoint exists and the npc shooting cooldown is over
@@ -53,7 +53,7 @@ public class NPCShoot : MonoBehaviour
 			//instantiate a bullet
 			vfx = Instantiate(effectToSpawn, npcFirePoint.transform.position,  this.transform.rotation);
 			Debug.Log("Bullet Spawned");
-			//flare.enableEmission = true; 
+		
 			flare.Play();
 		
 		}
