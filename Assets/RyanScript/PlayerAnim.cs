@@ -6,6 +6,9 @@ public class PlayerAnim : MonoBehaviour
 {
 
 	public Animator anim;
+	public cubeProtoMiove CubeProtoMiove;
+	public NPCShoot NpcShoot;
+	public np np;
 
 	Rigidbody playerRigidBody;
 
@@ -30,7 +33,12 @@ public class PlayerAnim : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("npcBullet"))
 		{
+			TimeManager.instance.TimeTarget = 0.05f; 
 			StartCoroutine(DeathCorotine()); //go to coroutine
+
+			CubeProtoMiove.enabled = false;
+			NpcShoot.enabled = false;
+			np.enabled = false; 
 
 			//This part doesn't work
 			playerRigidBody.constraints = RigidbodyConstraints.FreezePositionZ | 

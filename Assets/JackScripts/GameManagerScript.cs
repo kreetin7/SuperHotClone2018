@@ -97,9 +97,19 @@ public class GameManagerScript : MonoBehaviour
 		
 		//TimeManager.instance.TimeTarget = 1;
 		endGameText.text = "SUPER";
-		yield return new WaitForSecondsRealtime(2f);
+		yield return new WaitForSecondsRealtime(1f);
+		endGameText.enabled = false;
 		endGameText2.text = "HOT";
-		yield return new WaitForSecondsRealtime(2f);
+		yield return new WaitForSecondsRealtime(1f);
+		endGameText.enabled = true;
+		endGameText2.enabled = false; 
+		endGameText.text = "SUPER";
+		yield return new WaitForSecondsRealtime(1f);
+		endGameText.enabled = false;
+		endGameText2.enabled = true;
+		endGameText.text= ""; 
+		endGameText2.text = "HOT";
+		yield return new WaitForSecondsRealtime(.5f);
 		SceneManager.LoadScene(1); // load Scene(1) in the build settings(Test Scene right now)
 	
 
